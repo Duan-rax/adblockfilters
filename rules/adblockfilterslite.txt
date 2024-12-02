@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241202090529
-! Last modified: 2024/12/02 09:05:29
-! Blocked Filters: 41768
+! Version: 20241202161911
+! Last modified: 2024/12/02 16:19:11
+! Blocked Filters: 41771
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -17018,6 +17018,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 .xyz/xefeliffng_$third-party
 .xyz/xling_*_*_*.js?
 .xyz/z/*/code.js$script,third-party
+.xyz:*/bug?*=$third-party
 .xyz:8009/11?x=
 .xyz:9002/*?x=$websocket,script,third-party
 .xyz^$domain=ceofix.net|teenfic.net
@@ -24073,7 +24074,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@/img_ad/*$domain=tkec.com.tw
 @@/inc/embed/*ads.js$domain=wcostream.org|watchanimesub.net|wco.tv|wcostream.net|wcostream.com|wcoforever.tv
 @@/inc/embed/suv4.js$domain=wcostream.org|watchanimesub.net|wco.tv|wcostream.net|wcostream.com|wcoforever.tv
-@@/index.m3u8$stealth=referrer
+@@/index.m3u8$stealth=referrer|webrtc
 @@/index.m3u8$xmlhttprequest,stealth=referrer,domain=olalivehdplay.ru|lewblivehdplay.ru
 @@/index.m3u8$xmlhttprequest,stealth=referrer,domain=poscishd.online
 @@/invoke.js$domain=emurom.net
@@ -31965,7 +31966,7 @@ indy100.com,tarladalal.com###top_banner
 indysmix.com,wzpl.com##.block-content > a[href^="https://sweetjack.com/local"]
 infinityfree.com#$?#iframe[src^="about:blank"] { position: absolute !important; left: -3000px !important; }
 infinityscans.net,infinityscans.xyz#%#//scriptlet("abort-current-inline-script", "$", "['html']")
-infinityscans.net,infinityscans.xyz#%#//scriptlet("trusted-replace-outbound-text", "atob", "/[\s\S]*?(pagead2\.googlesyndication\.com|googletag|depend on advertisement[\s\S]*?window\.stop)[\s\S]*/")
+infinityscans.net,infinityscans.xyz#%#//scriptlet("trusted-replace-outbound-text", "atob", "/[\s\S]*?(pagead2\.googlesyndication\.com|googletag|depend on advertisement)[\s\S]*?window\.stop[\s\S]*/")
 infinityscans.net,infinityscans.xyz#%#//scriptlet("trusted-replace-outbound-text", "atob", "window.matchMedia('(display-mode: standalone)').matches", "!0")
 infinityscans.net,infinityscans.xyz#%#//scriptlet('prevent-window-open', '/quackupsilon\.com|sunnshele\.com|pubadx\.one|psegeevalrat\.net/')
 infinityscans.net,infinityscans.xyz#%#//scriptlet('trusted-create-element', 'body', 'div', 'id="hkRVplDugaPY"')
@@ -39129,6 +39130,7 @@ zzzyk.com###Tinfo
 ||displink.com^$third-party
 ||divcss5.com*/ibeifeng/
 ||divcss5.com*/liping/
+||diyibanzhu*/js/cdn.js$~third-party
 ||diyifanwen.com/siteimages/jiqiren
 ||dj1*.online^
 ||dj97.com/api.php?mod=ad&
@@ -39602,6 +39604,7 @@ zzzyk.com###Tinfo
 ||hkdm688.*/js/68/
 ||hmtoday.com^$third-party
 ||hn-ping*.hashnode.com^
+||hongosi.xn--*.cc$third-party
 ||hongyingbbs.com/jj/
 ||hoopchina.com.cn/common/lazyLoadAd.js
 ||hoopchina.com.cn/gamecenter/side-stg.js
