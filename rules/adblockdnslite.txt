@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250214085856
-! Last modified: 2025/02/14 08:58:56
-! Blocked domains: 5758
+! Version: 20250214161704
+! Last modified: 2025/02/14 16:17:04
+! Blocked domains: 5752
 ! unBlocked domains: 16
 !
 ||kwcdn.000dn.com^
@@ -58,7 +58,8 @@
 ||eclick.120ask.com^
 ||log.120ask.com^
 ||x.120ask.com^
-||120askimages.com^
+||bdjs.120askimages.com^
+||bdlm.120askimages.com^
 ||js1.122cha.com^
 ||ad.12306.cn^
 ||m.1234567.com.cn^
@@ -590,6 +591,7 @@
 ||activity.alibaba.com^
 ||ads.alibaba.com^
 ||click.alibaba.com^
+||fourier.alibaba.com^
 ||hydra.alibaba.com^
 ||img.alibaba.com^
 ||marketing.alibaba.com^
@@ -759,7 +761,6 @@
 ||adx.appsdk.com.cn^
 ||appsdt.com^
 ||appuu.cn^
-||static.appbox.apuslauncher.com^
 ||www.aqianniao.com^
 ||vinted-pl-gj32d.aqiwen.top^
 ||a.armystar.com^
@@ -1001,6 +1002,7 @@
 ||a.baomihua.com^
 ||area.baomihua.com^
 ||b1.baomihua.com^
+||djs.baomihua.com^
 ||dq.baomihua.com^
 ||interface.baomihua.com^
 ||m.video.baomihua.com^
@@ -1017,7 +1019,6 @@
 ||blink-upload.bayescom.com^
 ||jupiter.bayescom.com^
 ||raddus.bayescom.com^
-||bayimob.com^
 ||bbbazlp.cn^
 ||du1.bbdj.com^
 ||aod-image-material.cdn.bcebos.com^
@@ -1154,9 +1155,7 @@
 ||b1.c1km4.com^
 ||dispatcher.c360dn.com^
 ||dispatcher-bsy.c360dn.com^
-||download.caihong.com^
 ||gg.caixin.com^
-||logstat.caixin.com^
 ||ad.caiyunapp.com^
 ||api.callget.cn^
 ||smetrics.calvinklein.cn^
@@ -1523,8 +1522,6 @@
 ||app.fota.digitimetech.com^
 ||bea-s.dinghuoche.com^
 ||linktrace.diningcity.cn^
-||stdown.dinju.com^
-||www.discord-mj.cn^
 ||code.ditiezu.net^
 ||olx-pol-kxlsw2.diyang.top^
 ||vinted-pl-gj32d.diyang.top^
@@ -1910,7 +1907,6 @@
 ||usps.gdtcw.cn^
 ||gdtimg.com^
 ||canadapost-postescanada.gdwsw.cn^
-||t.geedai.com^
 ||log.geetest.com^
 ||g.gegeyingshi.com^
 ||genrena.com^
@@ -2004,7 +2000,6 @@
 ||adservice.google.com^
 ||pagead-googlehosted.l.google.com^
 ||ssl-google-analytics.l.google.com^
-||static-doubleclick-net.l.google.com^
 ||www-google-analytics.l.google.com^
 ||www-googletagmanager.l.google.com^
 ||accounts.google.sn.cn^
@@ -2852,6 +2847,7 @@
 ||dw-collect.ksosoft.com^
 ||dw-online.ksosoft.com^
 ||ic.ksosoft.com^
+||xldqxwdmew.ksoyw.cn^
 ||api.kingdata.ksyun.com^
 ||hdns.ksyun.com^
 ||kszvmqo.cn^
@@ -3357,7 +3353,6 @@
 ||projecta-common-1258344701.file.myqcloud.com^
 ||redpaper-10006092.cos.myqcloud.com^
 ||sfsafsadfjbbj-dsafjnb-1321533417.cos.ap-beijing.myqcloud.com^
-||saadsfds7.myshoplaza.com^
 ||analytics.myshoptago.com^
 ||gafxa.code.mytanwan.com^
 ||ldpgl.code.mytanwan.com^
@@ -3372,6 +3367,7 @@
 ||m.nabeghlavi.com.cn^
 ||yiyuan.nagezan.net^
 ||ytapi1.nagezan.net^
+||1.nanrenwo.net^
 ||m.nanyangqiaoxiang.cn^
 ||dl.natgo.cn^
 ||nbfieef.cn^
@@ -3546,7 +3542,6 @@
 ||pdweoyw.cn^
 ||eloqua.pearsonvue.com.cn^
 ||www.peiyou.com^
-||pengauto.cn^
 ||adver.pengyou.com^
 ||penxiangge.com^
 ||counter.people.cn^
@@ -3634,6 +3629,7 @@
 ||puqer.cn^
 ||ums.pushpia.cn^
 ||ssp.putaojiu.com^
+||apple.pvxt.net^
 ||dm.pw0.cn^
 ||pxhuiben.com^
 ||cdn.pyadx.com^
@@ -4033,10 +4029,8 @@
 ||rzflhxn.cn^
 ||rznscya.cn^
 ||rzsgxmm.cn^
-||s304.cc^
 ||m.s47e8.cn^
 ||g.s8dj.com^
-||s981.cc^
 ||sacre.cn^
 ||404.safedog.cn^
 ||sagetrc.com^
@@ -4056,6 +4050,7 @@
 ||active.sangfor.com^
 ||tech.sangfor.com^
 ||sanghuangvip.com^
+||ta.sanook.com^
 ||dm.sanwen.net^
 ||js.sanwen.net^
 ||www.saxmcu.cn^
@@ -4078,7 +4073,6 @@
 ||1640831964042.se-life.cn^
 ||ad.seeyouyima.com^
 ||sellfox.com^
-||senbiaojita.com^
 ||sensorsdata.cn^
 ||setqre.cn^
 ||logstat.t.sfht.com^
@@ -4347,7 +4341,6 @@
 ||click.hd.sohu.com.cn^
 ||pb.hd.sohu.com.cn^
 ||643108e7617ef.cdn.sohucs.com^
-||smetrics.solidigmtech.com.cn^
 ||smetrics.solidigmtechnology.cn^
 ||gg.sonhoo.com^
 ||sc.sonystyle.com.cn^
@@ -4418,6 +4411,7 @@
 ||api.sve.cc^
 ||api.taboola.sve.cc^
 ||fr.swissquote.cn^
+||cgrvtlhz.swkxh.cn^
 ||opohpmcdz.swkxh.cn^
 ||m.swujhkc.cn^
 ||cdn0.sxhjty.cn^
@@ -5058,7 +5052,6 @@
 ||wkanx.com^
 ||lm1.wkpcw.cn^
 ||opensdk.wlanbanlv.com^
-||wlgxaij.cn^
 ||wlhcb.cn^
 ||wmmax.com^
 ||wn68din.cn^
@@ -5279,6 +5272,7 @@
 ||xqblnei.cn^
 ||xqcjfcb.cn^
 ||ifbsubedhac.wap.xsbiquge.com^
+||lwxlsj.wap.xsbiquge.com^
 ||qeujmo.wap.xsbiquge.com^
 ||shangmiss.wap.xsbiquge.com^
 ||xiamiss.wap.xsbiquge.com^
