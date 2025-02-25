@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250225090040
-! Last modified: 2025/02/25 09:00:40
-! Blocked Filters: 42154
+! Version: 20250225161754
+! Last modified: 2025/02/25 16:17:54
+! Blocked Filters: 42155
 !
 ###AC_ad
 ###AD_160
@@ -22812,9 +22812,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 1tamilblasters.*##p[style="text-align: center;"] > a[target="_blank"] > img
 1tamilblasters.*#?#.ipsWidget > .ipsWidget_inner:has(> p[style="text-align: center;"]:only-child > a[target="_blank"] > img)
 1tamilmv.*#%#//scriptlet("abort-current-inline-script", "document.createElement", "ppu_")
-1ting.com###tingx_5
-1ting.com##[id^=tingx_]
-1ting.com##div[style="position:fixed;bottom:0;z-index:999"]
 1x6666.com,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bbs.52life.cc,bestcclm.com,cm868.com,cnyw.net,discuzlab.com,gebi1.com,hh010.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,susongbbs.com,txahz.com,wishct.com,xsool.com,xydai.cn,ybvv.com###diy1
 1x6666.com,52ch.net,bbs.qbaobei.com,chinafix.com,cnyw.net,gz0668.com,hcbbs.com,mahoupao.com,susongbbs.com,xsool.com,xydai.cn###diynavtop
 1ydt.com###head
@@ -24690,6 +24687,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||geekbang.org/resource/image/ad/14/addb521e20de1a302206f4286eac3914.png
 @@||genshuixue.com/??/*/counter/action_
 @@||getitfree.cn/wp-content/plugins/adunblocker/public/js/banner_ads_*.js
+@@||gg.wudizuqiu.com/72nba.js
 @@||ghxi.com^$stealth=dpi
 @@||gias.jd.com/js/td.js
 @@||gifshow.com/rest/wd/common/log/collect/acfun
@@ -26626,7 +26624,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||static.doubleclick.net/instream/ad_status.js$xmlhttprequest,domain=cybermania.ws
 @@||static.hdslb.com/ad-images/$image
 @@||static.mediav.com/js/feed_ts.js$domain=jianshu.com
-@@||static.realme.net/v1/knowledge/images/banner.jpg$image
 @@||static.vrv.co^$media,domain=crunchyroll.com
 @@||static.zhihu.com/ad-raccoon-web/$script
 @@||statics.zcool.com.cn/track/sensors.$script,~third-party
@@ -32565,6 +32562,9 @@ json.cn,pianyuan.org,qixingquan.com##.modal-backdrop
 jsphp.net##.adleft-wrap
 jsphp.net##.rightAdBtm-wrap
 jsphp.net##.widget_tuijian
+jspoo.com##.apd
+jspoo.com##.g-wznywzjs
+jspoo.com##img[id^="float_img_"]
 jstv.com###vplayad
 jstv.com##.TuiGuang
 jstv.com##.jadv
@@ -38191,7 +38191,6 @@ zzzyk.com###Tinfo
 ||51ztzj.com/res/web/img/download_sign
 ||51ztzj.com/res/web/img/pic/inshow.jpg
 ||51zxw.net/netclass/images/*_top.jpg
-||520z-2.com/uploadfile/sucai/
 ||521000.com/co/
 ||5251.net^$third-party
 ||52che.com/Inc/FooterComm_
@@ -39365,7 +39364,6 @@ zzzyk.com###Tinfo
 ||dianxin.com^$third-party
 ||diaoyu123.com/cpro/show.js
 ||dict.youdao.com/vip/privilege/show/V*?bannerType=fanyiTop$domain=fanyi.youdao.com
-||dig.chouti.com/advert
 ||dimtown.com/adimg/
 ||dingdangsheji.com^*/%E5%9B%BE%E6%80%AA%E5%85%BD
 ||dingdangsheji.com^*/%E7%94%BB%E6%9D%BF-
@@ -39423,6 +39421,7 @@ zzzyk.com###Tinfo
 ||douyin.com/api/user/getPcBanner?
 ||douyu.com/japi/sign/web/getinfo
 ||douyu.com/member/gamegift/gameList/
+||down-id.img.susercontent.com/file/*.webp$domain=lk21.am.in
 ||down.tgjkbx.cn/xxjs/$script
 ||downlinker.*/ad_dl.js
 ||downlinker.*/ads.js
@@ -39848,7 +39847,6 @@ zzzyk.com###Tinfo
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaihaven.xxx^$referrerpolicy=origin
-||herogame.com^$subdocument,domain=gamer.com.tw
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
 ||hexun.com/2017-11-07/191534592.jpg
@@ -40315,6 +40313,7 @@ zzzyk.com###Tinfo
 ||kmp*.etransport.pl/run.$subdocument
 ||kmplayer.cn/include/jscript/*-a.js
 ||kmw.com/js/adshow
+||kokojia.com^$third-party
 ||komoot.*/api/t/event
 ||komorkomania.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||komorkomania.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
@@ -41760,6 +41759,7 @@ zzzyk.com###Tinfo
 ||wbiao.cn/common/adapi/
 ||wbiao.cn/common/newsbannerAds/
 ||wbiao.co/src2/js/expand/fudong/
+||wdadad.cn
 ||weather.com.cn/a1.js
 ||weathercn.com/m_mobile/ad_image/
 ||web-visor.
@@ -41886,6 +41886,7 @@ zzzyk.com###Tinfo
 ||x23qb.com/skin/themex.js
 ||x81zw.co/js/dsnmd.
 ||xav*.icu/base/js/other.js
+||xbqg6.com/*.php
 ||xcar.com.cn/bbs/adfocus.js
 ||xcar.com.cn/dsp/ad
 ||xcar.com.cn/exp/
