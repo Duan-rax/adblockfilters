@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260108000544
-! Last modified: 2026/01/08 00:05:44
-! Blocked Filters: 43049
+! Version: 20260108081503
+! Last modified: 2026/01/08 08:15:03
+! Blocked Filters: 43055
 !
 ###AC_ad
 ###AD_160
@@ -29398,7 +29398,10 @@ cnforex.com##.mleft > a
 cngold.com.cn##.myGuangGao
 cngold.org##.ag_fwindow_ywp
 cngold.org##.fiexdAdvsClosed
+cngold.org##.fixed_jt
+cngold.org##.headCompanys
 cngold.org##.in_content_left_advs
+cngold.org##.jams
 cngold.org##.pageAdv
 cngold.org##.top_bigad
 cnitpm.com##.erweima
@@ -41281,6 +41284,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||log-collector.shopee.
 ||log-va*.capcutapi.com^
 ||logger-*.dailymotion.com^
+||logreport-global-dual.cool*cloud.com^
 ||logs*.smithsonian.museum^
 ||logs-*.rebxgame.com^
 ||logservice-*.platform.dbankcloud.cn^
@@ -42665,6 +42669,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||webkaka.com/info/script/articleAd.js
 ||webkaka.com/script/cp.js
 ||webkaka.com^*x50.
+||weblogger-wss.cool*cloud.com^
 ||wei2008.com/js/*0.
 ||wei2008.com/js/t_
 ||wei2008.com/skin/js/top.js
@@ -42721,6 +42726,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||wpdaxue.com/img/*/txy-
 ||ws-p2p*pull*com^
 ||ws.amazon.*/widgets/$third-party
+||wslog-global-dual.cool*cloud.com^
 ||wstx.com/api.php?mod=ad&
 ||www-backend.strinova.com/api/common/uid
 ||www.*yydstxt*/js/cdn.js
