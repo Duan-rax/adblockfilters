@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260129000925
-! Last modified: 2026/01/29 00:09:25
-! Blocked Filters: 42910
+! Version: 20260129081714
+! Last modified: 2026/01/29 08:17:14
+! Blocked Filters: 42918
 !
 ###AC_ad
 ###AD_160
@@ -17189,6 +17189,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /?pid=*&subid=*&clickid=$popup
 /?pl=*&sm=$document
 /?placement=*&redirect$popup
+/?pub_id=*&key=*&site_id=*&data=$all
 /?publisherId=*&hostId=$all
 /?rb=*&zoneid=$all,third-party
 /?record&key=
@@ -22569,6 +22570,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /yna_stat.js
 /yofi-telemetry-prod.min.js
 /youtubeVideoAnalytic.js
+/youtubei/v*/get_watch?$jsonprune=\$..[adPlacements\, adSlots\, playerAds],domain=m.youtube.com|youtubekids.com|youtube-nocookie.com
 /youtubei/v*/player?$jsonprune=\$..[adPlacements\, adSlots\, playerAds],domain=youtubekids.com|youtube-nocookie.com|youtube.com
 /youtubei/v*/reel/reel_watch$jsonprune=\$.entries[?(has "\$..command.reelWatchEndpoint.adClientParams.isAd")],domain=youtube.com
 /youziks\.com\/[0-9]+\.js/$domain=youziks.com,script
@@ -26094,6 +26096,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=quackr.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=quienhabla.mx,xmlhttprequest
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=quizack.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=radio.de|radio.at|radio.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=radiotunes.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rain-alarm.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*|masterenjoyao.*|differenceprimitive85p.*|blewdiffera3j2.*|strangernervousql.*|leadmorning4ivn.*|somehowrockyng.*|currentcolorq2dv.*|determinemousecshe.*|publicspeed5c.*
@@ -33491,6 +33494,10 @@ linkedin.com#?#.core-rail > div > div[id^="ember"]:has(.feed-shared-actor__sub-d
 linkedin.com#?#.feed-shared-update-v2:has(.update-components-actor__sub-description:contains(/Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
 linkedin.com#?#.msg-overlay-list-bubble__conversations-list:-abp-contains(Sponsored)
 linkedin.com#?#.msg-overlay-list-bubble__conversations-list:contains(Sponsored)
+linkedin.com#?#[componentkey*="MAIN_FEED_RECENT"] > [data-view-name]:-abp-contains(Promoted)
+linkedin.com#?#[componentkey*="MAIN_FEED_RECENT"] > [data-view-name]:contains(Promoted)
+linkedin.com#?#[componentkey*="MAIN_FEED_RELEVANCE"] > [data-view-name]:-abp-contains(Promoted)
+linkedin.com#?#[componentkey*="MAIN_FEED_RELEVANCE"] > [data-view-name]:contains(Promoted)
 linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
 linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__sub-description--tla:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
 linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__sub-description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
@@ -38043,6 +38050,7 @@ www.google.*##.commercial-unit-mobile-top > div[data-pla="1"]
 www.google.*##.cu-container
 www.google.*##.ltJjte
 www.google.*##.uEierd
+www.google.*##.vbIt3d
 www.google.*##a[href^="/aclk?sa="][href*="&adurl=&placesheetAdFix=1"]
 www.google.*##a[href^="/aclk?sa="][href*="&adurl=&placesheetAdFix=1"] + button
 www.google.*##a[href^="https://www.googleadservices.com/pagead/aclk?"]
