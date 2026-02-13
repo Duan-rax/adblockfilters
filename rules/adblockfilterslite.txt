@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260213161338
-! Last modified: 2026/02/13 16:13:38
-! Blocked Filters: 42953
+! Version: 20260214001501
+! Last modified: 2026/02/14 00:15:01
+! Blocked Filters: 42947
 !
 ###AC_ad
 ###AD_160
@@ -27899,7 +27899,6 @@ asiaflix.*##body > div[id][style*="z-index"]:not([class])
 asiaflix.*#%#//scriptlet('abort-on-stack-trace', 'Math.floor', '_insertDirectAdLink')
 asiangay.tv,asiangaysex.net,gaysex.tv,gayxx.net,japangaysex.com,jav.com.co##.float-ck
 asianmirror.lk,catholicregister.org,crown.co.za,etn.se,marengo-uniontimes.com,nikktech.com##.banneritem
-asianporn.li,familyporn.tv,desihub.org,simpcity.cr,kissjav.com,rule34.world,bunkr-albums.io,darkino.online,allfansleak.net,getlec.blogspot.com#%#//scriptlet("abort-on-property-read", "zfgloadedpopup")
 asianporn.li,justporn.com,cremz.com,pusvid.com,kissjav.com,hentai4k.com,viralxxxporn.com,3dporndude.com,hentaismile.com,camhub.cc,coralxxx.com,analry.com,hard3r.com,bigbigtits.com,public-porno.com,maturexy.com,bigbumfun.com,fuqster.com,bigtitbitches.com,hugewangs.com,w1mp.com,analpornxl.com,sexpester.com,w4nkr.com##.asside-link
 asianporn.li,kissjav.*#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 asianporn.li,kissjav.*#%#//scriptlet('prevent-setTimeout', '/\.offsetHeight === 0|AdBlock|location\.reload\(\)/')
@@ -30306,11 +30305,9 @@ easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 easymp3converter.com$$script[tag-content="afScript"][min-length="5000"][max-length="7000"]
 easyvidplayer.com,vidplayer.live,embed4me.com,ezplayer.me#%#//scriptlet('prevent-addEventListener', 'click', 'adId')
-eater.com,sbnation.com##[data-concert="desktop_leaderboard_variable"]
 eater.com,sbnation.com##[data-concert="frontpage_hero_desktop"]
 eater.com,sbnation.com##[data-concert="medium_rectangle_variable_home"]
 eater.com,sbnation.com##[data-native-ad-id="container"]
-eater.com,sbnation.com,vox.com##[data-concert="leaderboard_top_tablet_desktop"]
 eater.com,vox.com##[data-concert="tablet_leaderboard"]
 ebaumsworld.com,greedyfinance.com##.divider
 ebay.*##.srp-river-answer[class*="CAROUSEL"]:not([class*="NAVIGATION"])
@@ -31341,7 +31338,6 @@ goodav17.com$$script[tag-content="getPopunderCookie"][max-length="2500"]
 goodcome.com.tw,sporttery.cn###mask
 goodfon.com,goodfon.ru##.center_banner__head
 goodindianporn.com,megayoungsex.com##.SHVidBlockR_Bn
-goodstream.one$$script:contains(showADBOverlay)
 goodtoknow.co.uk,nme.com,trustedreviews.com##.header-advert-wrapper
 google.*#?##bottom-pane .section-carousel-item-container > div[jstcache]:has(> div[class*="__body-content"] > div[class*="__text-content"] > span > span[class*="__ad-badge"])
 google.*#?##kp-wp-tab-overview > div[data-hveid]:has(> div[jsname] div[class*="__wholepage-card"] > div > div[class] div[class] > a[href^="/aclk?"])
@@ -31927,7 +31923,6 @@ htmlsucai.com,sucai8.cn,ui.cn#@#.adv_img
 htn.co.uk,game-2u.com,ps4pkg.com,torrentdownloads.me,glitched.online##a[href^="https://bit.ly/"] > img
 http$third-party,~image,domain=imgblaze.net|pixsera.net|imgfrost.net
 http://www.ads.$third-party
-httpcn.com##a[href^="http://www.okbmf.com/"] > img
 huaban.com###top_promotion
 huaban.com##.hb-ad
 huaban.com##div[class="pin wfc ad wft"]
@@ -33532,6 +33527,9 @@ luanren.com##.luanren_dbhfad
 luanren.com##.luanren_dbhfad2
 luchaonline.com,onworks.net,unitystr.com,azrotv.com,uptoplay.net##.adbn-wrap
 luchaonline.com,onworks.net,unitystr.com,azrotv.com,uptoplay.net#%#//scriptlet('prevent-fetch', '/histats\.com|pagead2\.googlesyndication\.com/')
+lulu0.ovh,asianporn.li,familyporn.tv,desihub.org,simpcity.cr,kissjav.com,rule34.world,bunkr-albums.io,darkino.online,allfansleak.net,getlec.blogspot.com#%#//scriptlet("abort-on-property-read", "zfgloadedpopup")
+lulu0.ovh,goodstream.one#%#//scriptlet('remove-node-text', 'script', 'showADBOverlay')
+lulu0.ovh,goodstream.one$$script:contains(showADBOverlay)
 luogu.com.cn##.side > div:last-child:not([class])
 luogu.com.cn##.side > div:not(.l-card):has(> span > svg.fa-rectangle-ad)
 lusongsong.com###main > center
@@ -39039,7 +39037,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||5etv.com^$third-party
 ||5ilog.com/qq/js/jsgg.js
 ||5imx.com/image/image/
-||5s98.com/img/
 ||6.cn/coop/pub/getRand.php?
 ||600km.com/template/*/ad/
 ||62422.cn/ggimg/
@@ -40704,9 +40701,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||htm*.hepsiburada.com^
 ||html-load.com^$important,domain=nikkansports.com|j-cast.com|picksandparlays.net|ranking.net|minkou.jp|aucfree.com|motor-talk.de|373news.com|northantstelegraph.co.uk|tavovaikas.lt|agriculture.com|travelandleisure.com|learnreligions.com|verywellhealth.com
 ||htqyy.com/kiees/
-||httpcn.com/Images/banner
-||httpcn.com/m/tg/
-||httpcn.com^*-120
 ||huaban.com^*/ads
 ||huanqiu.com/resource/js/base
 ||huanqiu.com/ssi/show_*_mall.ssi
