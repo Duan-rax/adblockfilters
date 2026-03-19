@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260319161318
-! Last modified: 2026/03/19 16:13:18
-! Blocked Filters: 99366
+! Version: 20260320001909
+! Last modified: 2026/03/20 00:19:09
+! Blocked Filters: 99370
 !
 ###AC_ad
 ###AD_160
@@ -44622,6 +44622,8 @@ daemon-hentai.com#%#//scriptlet('abort-on-stack-trace', 'open', 'Popunder')
 daemon-hentai.com#%#//scriptlet('prevent-setTimeout', 'adbl')
 daemon-hentai.com#@#[id^="div-gpt-ad"]
 daemon-hentai.com#@#div[id^="div-gpt-"]
+daemon-hentai.com,teamkong.rf.gd,ad4msan.com,ossels.ai,world-iptv.club###zdn-adblock-overlay
+daemon-hentai.com,teamkong.rf.gd,ad4msan.com,rozgarnews.com,chat.irc.in.th,ossels.ai,world-iptv.club,edoga.biz.hr,radiofreehubcity.com,jobalertswithgbrar.com,spyro.blogu.co.uk,cybermania.ws,teamkong.tk#%#//scriptlet('abort-current-inline-script', 'jQuery', '#zdn-adblock-overlay')
 daemonanime.net#%#//scriptlet('prevent-element-src-loading', 'script', 'a.magsrv.com/video-slider.js')
 daemonanime.net#@#.ad-space
 daemonanime.net#@#.ad-unit:not(.textads)
@@ -60928,6 +60930,7 @@ metacritic.com##.ad_unit
 metacritic.com##.c-adMpu
 metacritic.com##.c-adsGallerySlot
 metacritic.com##.c-expressvpn
+metacritic.com##.fandom-ad-placeholder
 metacritic.com#$#.title_bump > .ad_unit + .browse_list_wrapper + div[style="padding-bottom: 30px; display: none !important;"] + .browse_list_wrapper { border-top: none !important; padding-top: 0 !important; }
 metacritic.com#$#.title_bump > .ad_unit + .browse_list_wrapper { border-top: none !important; padding-top: 0 !important; }
 metacritic.com#?#.title_bump > .ad_unit + .browse_list_wrapper + div[style*="padding-bottom:"][style*="30px;"]:has(> .ad_unit)
@@ -65666,6 +65669,7 @@ panda985.com,qqdsw8.cn,knews.com.tw,shiyrj.top,yalishi.com,guozaoke.com,100ec.cn
 pandadevelopment.net,forplayx.ink,karanpc.com,iconmonstr.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 pandamovies.org###overlay
 pandamovies.org##a[href^="https://freepopnews.skin/"]
+pandamovies.org#%#//scriptlet('remove-node-text', 'script', 'mainAds')
 pandamovies.pw##.mingplus
 pandamovies.pw##.rightdiv1content > a[href][rel="nofollow"]
 pandamovies.pw##body > div[style^="position: fixed; overflow: hidden;"]:not([class]):not([id])
@@ -66133,7 +66137,9 @@ perchance.org#%#//scriptlet('prevent-setTimeout', 'adIframesExist')
 perchance.org#%#//scriptlet('set-constant', 'createAdCtn', 'noopFunc')
 perelki.net#%#//scriptlet("prevent-setTimeout", "aderror_new")
 perezhilton.com###feature-spot
+perezhilton.com##.lazy-ad-parent
 perezhilton.com##.single-spot.shown
+perezhilton.com##div[class$="-ad-container"]
 perezhilton.com##div[style="min-height:310px;"]
 perfectdailygrind.com##.gengpdg
 perfectdailygrind.com##.gengpdg-col
@@ -66760,7 +66766,6 @@ player.desenefaine.net#%#//scriptlet("prevent-window-open")
 player.eska.pl#$##onn-control-button[style*="display: none"] { display: block !important; }
 player.euroxxx.net#%#//scriptlet('prevent-window-open')
 player.glomex.com#%#//scriptlet('set-constant', 'Object.prototype._getSalesHouseConfigurations', 'noopFunc')
-player.hboav.com#%#//scriptlet('set-constant', 'player.VastADPlugin', 'noopFunc')
 player.hdgay.net#%#//scriptlet("prevent-window-open")
 player.hdgay.net#%#//scriptlet('set-constant', 'doSecondPop', 'noopFunc')
 player.hu##.seethru
@@ -68302,6 +68307,7 @@ proptiger.com##div[style^="position:relative;"][style*="height:100px;"]
 proreader.io###offerModal
 prosettings.net##.placement
 prosettings.net##.pro-placement
+prospectmagazine.co.uk#%#//scriptlet('trusted-replace-node-text', 'script', 'stickyOffset', '/const ad = document\.getElementById\(.*;/', 'const ad = document.getElementById("menuToggle");')
 prostylex.org##.wrapper > div[style="text-align:center;font-family:Tahoma;"]:not([class]):not([id])
 prostylex.org#?#.wrapper > div[style*="text-align"]:has(> a[href^="https://trustaffs.com"])
 prostylex.org#?#.wrapper > div[style="text-align:center;font-family:Tahoma;"]:not([class]):not([id]) ~ center:has(a[href="http://slotslights.com/"])
@@ -74466,8 +74472,6 @@ teachthought.com###media_image-6
 teachthought.com##.wp-block-image > figure.size-full
 teachthought.com##div[class^="astra-advanced-hook"]
 teachthought.com,collegelearners.com###block-4
-teamkong.rf.gd,ad4msan.com,ossels.ai,world-iptv.club###zdn-adblock-overlay
-teamkong.rf.gd,ad4msan.com,rozgarnews.com,chat.irc.in.th,ossels.ai,world-iptv.club,edoga.biz.hr,radiofreehubcity.com,jobalertswithgbrar.com,spyro.blogu.co.uk,cybermania.ws,teamkong.tk#%#//scriptlet('abort-current-inline-script', 'jQuery', '#zdn-adblock-overlay')
 teamkong.rf.gd,haberettim.com,cybermania.ws,merlinshoujo.com,newseco.site,slotlog.net,baxoi.buzz,call4cloud.nl,topshare.in,tempmaile.me,filydot.fun,curiosidadtop.com,servicemassar.ma,getintopcm.com,gold-24.net,pornincest.net,nakiny.com,javboys.tv,latinluchas.com,azupro-sokuho.com,chikianimation.com,blogenginee.com,mscdroidlabs.es,sevenst.us,gengen17.com,helicomicro.com,karwan.tv,medeberiya.site,sirhub.net,nxbrew.net,twobluescans.com,sulocale.sulopachinews.com,learnfrench.space,berich8.com,examscisco.com,livenewsof.com,medeberiyax.com,savegame.pro,fattelodasolo.it,donghuaworld.com,miraiagent.co.jp,glasbanjaluke.net,nkreport.jp,majorscans.com,postazap.com,digitalmalayali.in,tabering.net,xn--nbkw38mlu2a.com,medeberiya1.com,memo-nikki.info,zealtyro.com,photoshopvideotutorial.com,iamflorianschulze.com,bi-girl.net,oyundunyasi.net,forum.release-apk.com,kyoto-kanko.net,yasumesi.com,barrier-free.net,giuseppegravante.com,blurayufr.*,msonglyrics.com,manhuaga.com,chijooh.com,teikokutyo.com,daemon-hentai.com,shittokuadult.net,games-manuals.com,tgnscripts.xyz,mypace.sasapurin.com,nsw2u.*,magesypro.com,adslink.pw,teamkong.tk,downloader.is,pornmz.com,unkochan893.com,miauscan.com,game-2u.com,mhscans.com,3rabsnews.com,tuxnews.it,eurekaddl.*,novel-gate.com,hscans.com,mitsmits.com,ncbellu.net,tyksnet.com,pornktubes.net,porhubvideo.com,freemen.jp,kanaeblog.net,csharpprogram.com,grasta.net,pokemonmatome.online,shirurin.com,covod.work,lenlino.com,mcspigot.com,it-money-life.com,tutorialsduniya.com,hentaiseason.com,monoqlo.tokyo,anime-torrent.com,paraanaliz.com,officialpanda.com,moneysave.info,plugintorrent.com,ewybory.eu,codelikes.com,eigo-no-manma.com,pupuweb.com,4allprograms.me,apkmaza.co,38.242.194.12,branditechture.agency,sysguides.com,polszczyzna.pl,mylivewallpapers.com,kurobatch.com,mantrazscan.com,4horlover.com,radsum.com,ntucgm.com,huntersscan.xyz,freemagazinespdf.com,wabetainfo.com,iggtech.com,javhdworld.com,26g.me,watchtv24.com,mangatoo.net,francaisfacile.net,o-pro.online,leechyscripts.com,killdhack.com,rarovhs.com,jpopsingles.eu,anreiter.at,moewalls.com,frenchweb.fr,pathshalanepal.com,angolopsicologia.com,mikrometoxos.gr,manga-fenix.com,codehelppro.com,9movierulz.*,icongnghe.com,pulpitandpen.org,turbolangs.com,skincaredupes.com,codeastro.com,saniaowner.space,hentai-mega-mix.com,katmoviefix.*,twinkybf.com,softfully.com,windowsbulletin.com,365tips.be,animeactua.com,myviptuto.com,coursevania.com,youfriend.it,7misr4day.com,technicalatg.xyz,gourmetscans.net,michaelemad.com,gaypornhdfree.com,netfuck.net#%#//scriptlet('abort-on-property-read', 'adsBlocked')
 teamkong.rf.gd,teamkong.tk##.widget-area > .widget:not(#block-22, .widget_search)
 teamkong.rf.gd,teamkong.tk##body > a[id] + div[id][class*=" "]
@@ -81372,7 +81376,7 @@ xv-ru.com##div[id^="ad-footer"]
 xv-ru.com,xvideos.*##.nutaku-gamesAdd commentMore actions
 xv-ru.com,xvideos.*##a[href^="https://s.zlink7.com/"]
 xvideo.cc#%#//scriptlet("set-constant", "poped", "true")
-xvideos.*##.exo-ad-ins-container
+xvideos.*##body .exo-ad-ins-container
 xvideos.*,tophentaicomics.com##.thumb-ad
 xvideos.com###ad-footer
 xvideos.com###video-right
@@ -94811,7 +94815,6 @@ zzzyk.com###Tinfo
 ||responsivethemesstatic.github.io/static/*.js$domain=shoppinglys.blogspot.com
 ||resterent.com^$popup
 ||resu.io/scripts/resclient.min.js
-||resulticks.com^$third-party
 ||resultspage.com/js/sli-spark.js
 ||retailrocket.ru/content/javascript/tracking.js
 ||retailturkiye.com/wp-content/uploads/*/baoli-banner-
@@ -97131,6 +97134,7 @@ zzzyk.com###Tinfo
 ||trackdz.com/img/banners/
 ||tracker.$xhr,websocket,script,ping
 ||tracker.twenga.
+||trackertest.org^$third-party
 ||trackerx.ru^$popup
 ||tracking*.euroads.fi^
 ||tracking*.euroads.fi^$third-party
