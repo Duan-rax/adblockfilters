@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260401002238
-! Last modified: 2026/04/01 00:22:38
-! Blocked Filters: 101083
+! Version: 20260401082403
+! Last modified: 2026/04/01 08:24:03
+! Blocked Filters: 101090
 !
 ###AC_ad
 ###AD_160
@@ -16354,6 +16354,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 -client-report.honkaiimpact3.com^
 -client-tracking.goodgamestudios.com/
 -contrib-ads.$~stylesheet
+-datareceiver.aki-game.net^
 -didomi.js
 -events-collector.spot.im^
 -geoIP.js
@@ -26148,6 +26149,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||ads.viralize.tv/t-bid-opportunity/$domain=automoto.it|moto.it
 @@||ads.viralize.tv^|$domain=automoto.it|moto.it
 @@||ads.vk.com^$popup
+@@||ads.vk.ru^$popup
 @@||ads.x.com^$popup
 @@||ads.yandex.com^$~third-party
 @@||ads.youtube.com^|$domain=technorj.com
@@ -32332,6 +32334,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kisahdunia.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kissanime.com.ru|kissanime.co|kissanime.sx|kissanime.is
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kitguru.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kpopflac.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=laptrinhx.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=leechpremium.link
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=leechpremium.net
@@ -40057,10 +40060,7 @@ belloflostsouls.net#?#span.text-secondary:has-text(Advertisement)
 belloflostsouls.net,ginx.tv,paladins.guru,smite.guru,theloadout.com##.vm-placement
 bemyhole.com###live-spots
 bemyhole.com###videoslist > div[style="width: 100%; display: block; margin-top: -17px; padding: 0 2px; font-size: 8px; text-align: right;"]
-bemyhole.com##.dropdown > .upd-source
-bemyhole.com##.headline:has(> a[href="/to/show-more-cams/"])
 bemyhole.com##.main-cams
-bemyhole.com##.tah-desktop-spot
 bemyhole.com#%#//scriptlet('remove-node-text', 'script', 'egoTab')
 bemywife.cc#%#window.canRunAds = !0;
 ben54.jp#@##adModal
@@ -56367,11 +56367,9 @@ invezz.com##.homepage-beneath-hero
 invezz.com##.mx-auto
 inwepo.co##.adsbygoogle
 inwepo.co##div[id^="oa-"]
-inxxx.com##.fh-wrapper:has(> .fh-item > a[href^="/fh-out/"] > div.fh-ad-label)
 inxxx.com##div.headline:has(a[href="/to/show-more-cams/"])
 inxxx.com##div.inxxx-desktop-spot
 inxxx.com#%#//scriptlet('abort-current-inline-script', 'Symbol', 'egoTab')
-inxxx.com,bemyhole.com##.cams-button
 inxxx.com,theyarehuge.com##.desktopspot
 inyourarea.co.uk##.style_advertisementMark_1Jki4
 inyourarea.co.uk##.style_cardWrapper_ycKf8
@@ -58667,6 +58665,7 @@ koyso.com,wavse.com#@#.google-ad
 kpanews.co.kr#@#.ad_top
 kpd122.com,ssp28.pw##.index-owl-carousel
 kpliker.net#?#center > p:contains(Advertisement)
+kpopflac.xyz#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
 kpopjams.com###add-blocker-wrapper
 kpopjams.com#%#//scriptlet('abort-current-inline-script', 'dataLayer', 'detectAdBlock')
 kpopping.com##.box.advertise
@@ -59678,6 +59677,7 @@ linkedin.com##[data-sponsored-tracking-url]
 linkedin.com##article[data-is-sponsored]
 linkedin.com##iframe[componentkey$="_ad"]
 linkedin.com##iframe[componentkey="MynetworkDesktopNav_mynetwork_desktop_nav_ad"]
+linkedin.com##iframe[height="250"][width="300"]
 linkedin.com##iframe[title="Advertisement"]
 linkedin.com##iframe[title="advertisement"]
 linkedin.com##li[data-is-sponsored="true"]
@@ -63091,9 +63091,8 @@ mthai.com##.banner-wrap
 mthai.com##div[id^="dfp-"]
 mtlblog.com###article-text > div.awrapper
 mtpro.xyz##.entry-content > div > .wp-block-button
-mtpro.xyz##a[href="#"][onclick*="this.href="][target="_blank"]
+mtpro.xyz##a[href][onclick*="this.href="][target="_blank"]
 mtpro.xyz##a[href^="https://px6.me/"]
-mtpro.xyz##a[href^="tg://resolve?domain=durevpnbot"]
 mtrend.cn###morecontent > .morecontent_next[style]
 mtrend.cn###topictabs1
 mtrend.cn###toptabs1 > .kz_line
@@ -74655,8 +74654,16 @@ sunporno.com##.atv
 sunporno.com##.atvtabling
 sunporno.com##.close-invid
 sunporno.com##.safelink
+sunporno.com##a[href="/to/live-sex/"]
+sunporno.com##a[href="/to/tiktok-porn/"]
+sunporno.com##iframe[src="/api/cams/get-spot-js-full-content/"]
 sunporno.com#%#//scriptlet("abort-on-property-read", "exoNoExternalUI38djdkjDDJsio96")
 sunporno.com#%#//scriptlet('abort-on-property-read', 'BetterPop')
+sunporno.com,bemyhole.com##.dropdown > .upd-source
+sunporno.com,bemyhole.com##.headline:has(> a[href="/to/show-more-cams/"])
+sunporno.com,bemyhole.com##.tah-desktop-spot
+sunporno.com,inxxx.com##.fh-wrapper:has(> .fh-item > a[href^="/fh-out/"] > div.fh-ad-label)
+sunporno.com,inxxx.com,bemyhole.com##.cams-button
 suntimes.com,hellomagazine.com,genyt.com,express.co.uk,apkmirror.com##.OUTBRAIN
 suntory.co.jp#@##page_ad
 super.cz###adPlachtaStart-1 + div[style]
