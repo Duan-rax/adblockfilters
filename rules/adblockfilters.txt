@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260418161444
-! Last modified: 2026/04/18 16:14:44
-! Blocked Filters: 101828
+! Version: 20260419001126
+! Last modified: 2026/04/19 00:11:26
+! Blocked Filters: 101827
 !
 ###AC_ad
 ###AD_160
@@ -14371,6 +14371,7 @@
 ##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
 ##DIV.playVideo-centerAd
 ##DIV.row.no-gutters.m-0
+##DIV.small-icon-container.is_mb
 ##DIV.stui-player__item.clearfix > img[url]
 ##DIV.swiper2.swiper-initialized.swiper-horizontal
 ##DIV.theme-hope-content.ads-container
@@ -18373,6 +18374,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /analytics-library.js
 /analytics-minimal-v4.js
 /analytics-minimal.js
+/analytics-module-api/v1/analytics?
 /analytics-ping.js
 /analytics-prod.js
 /analytics-reporter/*
@@ -36410,6 +36412,7 @@ a9vg.com##.a9-back-top_qrcode
 aa.com.tr#?#.container > style ~ div.ad:has(> span > a:not([href^="https://www.aa.com.tr/"]))
 aa25.cn###content_head
 aa25.cn,kafan.cn###content_top
+aaaweb.cn##a[href$=".yhzu.cn"]
 aads.com,ad-maven.com,adcash.com,admitad.com,adskeeper.com,adspyglass.com,adsupply.com,chpadblock.com,exoclick.com,hilltopads.com,juicyads.com,monetag.com,popads.net,propellerads.com,purpleads.io,trafficshop.com,yavli.com##HTML
 aae3.com###menu
 aae3.com##form + center > p[align="center"]
@@ -38360,6 +38363,7 @@ apkpure.com##.buff-store-card
 apkpure.com##.debut-game
 apkpure.com,apkpure.net##.aipure-button
 apkpure.net,apkpure.com##DIV.js-ad-slot
+apkrabi.io,dna-launcher.apkrabi.com##.ads12
 apksum.com##.ad-left
 apnetv.biz#%#//scriptlet('trusted-set-local-storage-item', 'adExpiryTime', '1922573520000')
 apnews.com##.Advertisement
@@ -81755,7 +81759,6 @@ whoer.com##a[href^="https://whoer.com/api_"]
 whoer.com##div[class]:has(> div[class] > img[alt="close"])
 whoer.net###render-big-banners
 whoer.net###render-mini-banners
-whoer.net##.main-ip-info__anonimity
 whoer.net##.popup-counter-deal__wrapper
 whoer.net##.rightsimple
 whois.com##.chiclet
@@ -85701,7 +85704,6 @@ zzzyk.com###Tinfo
 ||adsrv4k.com^$popup
 ||adsrvmedia.adk2.co^$important
 ||adsrvmedia.adk2.co^$important,third-party
-||adssistem.com^$third-party
 ||adsv.svc.litv.tv/ads?ad_unit=$xmlhttprequest,redirect=noopvast-3.0,important,domain=ani.gamer.com.tw
 ||adult-sex-games.com/images/*.gif
 ||adult-sex-games.com/images/adult-games/
@@ -87225,7 +87227,6 @@ zzzyk.com###Tinfo
 ||betonline.net.pl/media/images/$domain=elivescore.pl
 ||betonline.net.pl/media/images/$domain=meczyki.org
 ||betrugsalarm.com/assets/*/pubPolicy/customEvent.js
-||betsmart.media^$third-party
 ||betterbe.co/wp-content/themes/magnify/resources/js/bids
 ||betteredu.net/js/pop_tuiguang_
 ||bettermeter.com^$third-party
@@ -91877,7 +91878,6 @@ zzzyk.com###Tinfo
 ||huavod.net/player/$replace=/let ConFig/var ConFig/,document,subdocument
 ||huavod.top/player/$replace=/let ConFig/var ConFig/,document,subdocument
 ||hub.reacti.co/index.js
-||hubdigitalads.com^$third-party
 ||hubspot.com/analytics/
 ||hubspot.com/collected-forms/$xmlhttprequest,domain=confection.io
 ||hubspot.com/cs/loader-v2.js
@@ -94283,7 +94283,6 @@ zzzyk.com###Tinfo
 ||mediabong.net/t/
 ||mediacnt.pro/ap_dg/top
 ||mediacontext.
-||mediaconvertly.com^$third-party
 ||mediadelivery.net/.metrics/
 ||mediadelivery.net/rum.js
 ||mediaforgews.com^$third-party
