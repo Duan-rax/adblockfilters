@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260421002558
-! Last modified: 2026/04/21 00:25:58
-! Blocked Filters: 102024
+! Version: 20260421082650
+! Last modified: 2026/04/21 08:26:50
+! Blocked Filters: 102028
 !
 ###AC_ad
 ###AD_160
@@ -24007,7 +24007,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 3movs.com#?##side_col_video_view > div.section:has(> div.block_header_side > h4:contains(Advertisement))
 3movs.com#?#.column_aside > .box:has(> div.headline > h2.title:contains(Advertisement))
 3movs.com,3movs.xxx,babepump.com,bravotube.net,camvideos.tv,cluset.com,deviants.com,dixyporn.com,fapnfuck.com,fuqster.com,hello.porn,homo.xxx,javcab.com,katestube.com,pornicom.com,sexpester.com,sleazyneasy.com,thefree3dporn.com,videocelebs.net,vikiporn.com,vjav.com,w1mp.com,w4nkr.com##.spot
-3movs.com,3movs.xxx,babepump.com,bravotube.net,camvideos.tv,cluset.com,deviants.com,dixyporn.com,fapnfuck.com,fuqster.com,hello.porn,javcab.com,katestube.com,pornicom.com,sexpester.com,sleazyneasy.com,thefree3dporn.com,videocelebs.net,vikiporn.com,vjav.com,w1mp.com,w4nkr.com##.spot
 3movs.com,fapality.com##.cs
 3movs.com,ggjav.com,tnaflix.com##iframe[width="300"]
 3movs.com,japan-whores.com##.spot_large
@@ -32413,6 +32412,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=leechpremium.link
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=leechpremium.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=lightningmaps.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=links.lootlabs.gg
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=linovelib.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=lisanarb.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=listvpn.net
@@ -36893,6 +36893,7 @@ afflift.com,audi-sport.net,beermoneyforum.com,birdforum.net,clubsearay.com,forum
 affpaying.com###sidebar a[href^="http://trckgdmg.com/"]
 affpaying.com##.bg-ad
 affpaying.com##.fad-bg
+affpaying.com##div.bg-white:has(a[href^="https://propellerads.com/"])
 affpaying.com##img[alt="Algo Affiliates"]
 affpaying.com##img[width="800"][height="80"]
 affpaying.com#?##sidebar div.bg-white:has(> a[target="_blank"] > img[width="300"][height="250"])
@@ -60039,6 +60040,7 @@ linkneverdie.com#$##adsqca { height: 20px!important; position: absolute!importan
 linkneverdie.com#$##wrapper { display: block!important; }
 linkpoi.in##center > a[href][target="_blank"] > img
 linkpoi.me#%#//scriptlet("set-constant", "disableItToContinue", "noopFunc")
+links.lootlabs.gg#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 linksbypasser.com#%#//scriptlet('prevent-window-open', '/previewcontent')
 linksfire.co##.box-main a[href] > img
 linksfire.co##.box-main a[href][target="_blank"]
@@ -86607,7 +86609,9 @@ zzzyk.com###Tinfo
 ||apigw.scmp.com/pwa-v2-unleash-proxy/proxy/client/metrics
 ||apiimg.com/haishui/
 ||apiimg.com/huaer/xiahe.
+||apimg.net/*.gif$image,domain=affpaying.com
 ||apimg.net/2022/zeydoo-*.gif$domain=affplus.com
+||apimg.net/slider/propellerads
 ||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
 ||apis.pchome.com.tw/js/idlead.js
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
