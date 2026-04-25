@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260425162005
-! Last modified: 2026/04/25 16:20:05
-! Blocked Filters: 101464
+! Version: 20260426001320
+! Last modified: 2026/04/26 00:13:20
+! Blocked Filters: 101478
 !
 ###AC_ad
 ###AD_160
@@ -34435,6 +34435,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||stackpathcdn.com/wp-content/plugins/*/adblock-detector/advertisement.js$domain=phoneswiki.com
 @@||stackpathcdn.com^$stealth=referrer,domain=tympanus.net
 @@||stacksnippets.net^$jsinject,elemhide,extension
+@@||stacksocial.com^$stealth=flash
 @@||stacksocial.com^$stealth=java
 @@||stacksocial.com^$stealth=referrer
 @@||stadionowioprawcy.net^$generichide
@@ -37887,6 +37888,9 @@ animefrenzy.net,royalcams.com,adultcams.me,adultchat2100.com,alphafreecams.com,b
 animeguro.com###bt-ads
 animehay.*##body > div[style^="position: fixed; bottom: 0px; z-index:"]
 animehay.*#%#//scriptlet('set-constant', 'adsCatFish', 'noopFunc')
+animehay01.site##div[style^="position: absolute; bottom: 100%; right: 0px;"][style*="cursor: pointer;"]
+animehay01.site##img[src^="/ad_banner/"]
+animehay01.site#%#//scriptlet('prevent-window-open')
 animeheaven.pro,animepahe.*#%#//scriptlet("abort-on-property-write", "__C")
 animehub.ac###main-content > center
 animehub.ac##.sb-subs
@@ -47646,6 +47650,7 @@ embed.viaplay.com#%#//scriptlet('prevent-fetch', 'v.fwmrm.net/ad/g/1')
 embed.wcostream.com#$##announcement { display: block !important; }
 embed.wcostream.com#$#.announcement-backdrop { display: block !important; }
 embed.wcostream.com#%#(()=>{if(!location.href.includes("://embed.wcostream.com/inc/embed/index.php?file="))return;const e=`/inc/embed/video-js.php${location.search}`;location.href=e})();
+embed.wcostream.com#%#//scriptlet('abort-on-property-read', 'AdblockShield')
 embed.wcostream.com#%#//scriptlet('prevent-fetch', 'pubadx-ad.js')
 embed.wcostream.com#%#//scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{if(!location.href.includes("://embed.wcostream.com/inc/embed/index.php?file="))return;const e=`/inc/embed/video-js.php${location.search}`;location.href=e})();')
 embed.wcostream.com#@#.ad-unit
@@ -74204,6 +74209,8 @@ sshkit.com#%#//scriptlet('prevent-fetch', '/www3\.doubleclick\.net|pagead2\.goog
 sslshopper.com###home_quick_search_buttons > div
 sslshopper.com###promo-outer
 sslshopper.com##.bsaStickyLeaderboard
+ssnn.net###float_picr
+ssnn.net###nrk_gg
 sspai.com##.content hr:nth-last-child(-n+4) ~ p
 ssr.tools##.asb
 ssr.tools##.asb > div[style] > a[target="_blank"] > img
@@ -86143,6 +86150,7 @@ zzzyk.com###Tinfo
 ||animeaddicts.hu/theme/images/bannerbg.jpg
 ||animeflv.*/api/pop.php
 ||animefrenzy.net/static/jquery.js?v=
+||animehay01.site/ad_banner/
 ||animehub.ac/api/pop.php
 ||animeinweb.com/api/proxy/data/ads/
 ||animeland.tv/zenny/
@@ -88135,6 +88143,7 @@ zzzyk.com###Tinfo
 ||checkout.arukereso.hu^$ping
 ||checkout.com/logger/
 ||checkout.com/logging
+||checkreferrer.io^$third-party
 ||cheemsporn.com^*/banners/
 ||cheerfullybakery.com^$popup
 ||cheerpantyhose.com/cds/
@@ -92477,6 +92486,7 @@ zzzyk.com###Tinfo
 ||itongcheng.cc/amm/
 ||itopdog.cn/itopdog/ad.js
 ||itopdog.cn/itopdog/d*.js
+||itrac.it^$third-party
 ||itracmediav4.com^$third-party
 ||its.porn/ai/s/*/im.
 ||its.porn/ai/s/s/js/m/push.js
@@ -93392,6 +93402,7 @@ zzzyk.com###Tinfo
 ||link114.cn/template/js/showpics_
 ||link1s.com/kiem-tien-mua-sua-cho-con-gai.js
 ||link2.strawberrynet.com^$image
+||linkadvdirect.com^$popup
 ||linkbux.com/track?$popup
 ||linkchangesnow.com^$popup
 ||linkdeli.com/widget.js
@@ -93750,7 +93761,6 @@ zzzyk.com###Tinfo
 ||m4ufree.com/images/dl.png
 ||ma-petite-recette.fr/visites
 ||maas-*.phunware.com^
-||mabipa.com^$third-party
 ||macd.cn/macd-topads.html
 ||macfans.org/vip/
 ||macheforum.com/sponsorship/
@@ -94890,6 +94900,7 @@ zzzyk.com###Tinfo
 ||nextech.sk/files/photo/*left.jpg
 ||nextech.sk/files/photo/*right.jpg
 ||nextech.sk/files/photo/*top.jpg
+||nextmillennium.io^$third-party,domain=~nextmillennium.com
 ||nexvelar.b-cdn.net/videoplayback_.mp4
 ||nexx.cloud/play/beacon.
 ||nfcube.com/assets/img/pixel.gif
@@ -98023,6 +98034,7 @@ zzzyk.com###Tinfo
 ||ssl4us.*/pro_all_min.js^$third-party
 ||ssl4us.*/pro_mov_min.js^$third-party
 ||sslproxy.dk^*/analytics.js
+||ssnn.net^*-200-250.jpg
 ||ssp*.rtb.beeline.ru^
 ||ssp.qq.com/ad^$xhr
 ||sspai.com/api/v1/recommend*=article_
@@ -99146,6 +99158,7 @@ zzzyk.com###Tinfo
 ||trace-*.free-reels.com^
 ||trace-*.hungrypanda.co^
 ||traceless.me^$third-party
+||tracemonitorusa.life^$popup
 ||tracemyip.org/vlg/
 ||tracemyip.org^$third-party
 ||traceparts.com/logs
@@ -100124,6 +100137,7 @@ zzzyk.com###Tinfo
 ||wcareviews.com/bv/
 ||wccftech.com/0LDbU6Cv0mZ.js
 ||wccftech.com/cnt7vfDVvWa3.js
+||wcostream.com/inc/js/adblock-detector-hardened.js
 ||wcostream.net/premiumad
 ||wdadad.cn
 ||we-stats.com^$third-party
