@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260429164612
-! Last modified: 2026/04/29 16:46:12
-! Blocked Filters: 102150
+! Version: 20260430003330
+! Last modified: 2026/04/30 00:33:30
+! Blocked Filters: 102151
 !
 ###AC_ad
 ###AD_160
@@ -25557,7 +25557,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@/wp-content/plugins/imedia-basic/adserver-*.js$domain=sgxnifty.org|dollarindex.org|cacfutures.org|dowfutures.org|nasdaqfutures.org|spfutures.org|ftsefutures.org|daxfutures.org|nikkeifutures.org|comexlive.org|ncdexlive.org
 @@/wp-content/themes/*/ads/*/sailthru.js$domain=healthy4pepole.com
 @@/wp-content/themes/ikisifirbirdokuz/match-center.php?id=$stealth=referrer
-@@/wp-content/themes/publisher/*/ads/static/adv/sailthru.js$domain=healthy4pepole.com
 @@/wp-content/themes/radio-hub/*.js$domain=tingfm.com
 @@/wp-content/uploads/*$image,stealth=referrer,domain=mangastic.cc
 @@/wp-content/uploads/*$image,stealth=referrer,domain=realmscans.*
@@ -29847,6 +29846,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||hindustantimes.com/res/js/*ads*
 @@||hinet.net/keys/a.key^$domain=ani.gamer.com.tw
 @@||hiperinfo.pl/popup3.js
+@@||hisnet.handong.edu^$stealth=dpi
 @@||hisse.net^$generichide
 @@||histock.tw/JScript/AD/
 @@||history.com^$generichide
@@ -32369,7 +32369,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hackedfreegames.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hackr.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=healdad.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=healthy4pepole.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hecker.likesyou.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=heidisql.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hentaigasm.com
@@ -49033,7 +49032,6 @@ fapnado.com##iframe[width="95%"][height="400"]
 fapnado.com#$#.block-video > div.table { visibility: hidden!important; }
 fapnado.com#?##list_videos_related_videos > center:contains(Advertisement)
 fapnado.com#?#a:contains(Remove this ad)
-fapnado.com,3dporndude.com,fapnow.*,fapcat.com,cambay.tv##.fp-logo
 fapnado.com,fapnado.xxx##.zpot-horizontal
 fapnado.com,fapnado.xxx##.zpot-vertical
 fapnado.com,young-sexy.com##.popup
@@ -49050,8 +49048,6 @@ fapnow.xxx##.content center
 fapnow.xxx##.xpot-horizontal
 fapnow.xxx##a[href^="https://go.gsrv.dev/"]
 fapnow.xxx##div[style="width: 900px; height: 250px; margin: 0 auto;"]
-fapnow.xxx,fapnado.xxx##.footer-margin
-fapnow.xxx,fapnado.xxx,fapnado.com###list_videos_related_videos_items > div[class]:has(a[href^="https://www.tckcandy.com/"])
 fapnow.xxx,fapnado.xxx,fapnado.com##a[href^="https://t.javhd-trk.com/"]
 faponic.com##.control-block > a[target="_blank"]:not([href*="faponic.com/login"])
 faponic.com##.zkido_div
@@ -49071,6 +49067,10 @@ faptitans.com##.cross-promo-bnr
 faptor.com##.dblock
 faptor.com##.zpot-horizontal-img
 faptor.com#?#.dblock > center:contains(Advertisement)
+faptor.com#?#center:contains(/^Advertisement$/)
+faptor.com,fapnado.com,3dporndude.com,fapnow.*,fapcat.com,cambay.tv##.fp-logo
+faptor.com,fapnow.xxx,fapnado.xxx##.footer-margin
+faptor.com,fapnow.xxx,fapnado.xxx,fapnado.com###list_videos_related_videos_items > div[class]:has(a[href^="https://www.tckcandy.com/"])
 faptube.xyz#%#//scriptlet("abort-current-inline-script", "Math", "_0x")
 faqwiki.*#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', '/AdBlock|adsbygoogle\.js/')
 farescd.com##.ads_five
@@ -54007,9 +54007,10 @@ healthshots.com##.affiliateWidget
 healthshots.com##.storyBlockOne
 healthshots.com##div[class^="storyBlock"]:not(.trackWidget)
 healthy4pepole.com#%#//scriptlet("abort-current-inline-script", "EventTarget.prototype.addEventListener", "Adblock")
-healthy4pepole.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
-healthy4pepole.com#%#//scriptlet('set-constant', 'SanadLoadAds', 'true')
+healthy4pepole.com#%#//scriptlet('remove-node-text', 'script', 'div-gpt-ad-')
 healthy4pepole.com#?#.sidebar > div.widget_text > div.textwidget > div[id^="div-gpt-ad-"]:upward(2)
+healthy4pepole.com#@#[id^="div-gpt-ad"]
+healthy4pepole.com#@#div[id^="div-gpt-"]
 healthyceleb.com##.td-header-header-full
 healthylives.tw###contentBox > div[style^="width:336px;height: 280px;"]
 healthylives.tw##div[id^="gad"]
@@ -56910,6 +56911,7 @@ iphoneincanada.ca##.slbElement
 iphoneincanada.ca#?##main > .widgets-after-content > aside > div > div[id^="div-gpt-ad"]:upward(3)
 iphoneincanada.ca#@#a[href^="https://click.linksynergy.com/fs-bin/"]
 iphoneitalia.com##.grid-offers-widget
+iphoneitalia.com##.ipit-ac-remove-ads
 iphoneitalia.com##div[id^="addendoContainer_"]
 iphonelife.com##.l-header
 ipip.net##.row[style="width:1000px;margin:0px auto 25px auto;"]
@@ -62334,10 +62336,6 @@ mg21.com##a[href="https://www.mg21.com/zunjiazq"]
 mgbbs.cn##td[width="960"][height="60"]
 mgeko.cc##.nsad
 mgnacg.com##a[href^="https://fanqiev2.work/auth/register?code="]
-mgnet.xyz##.container-bns
-mgnet.xyz##h6.article-center[style="font-size:10px"] > strong
-mgnet.xyz#%#//scriptlet("prevent-setTimeout", "bnsErrorsCount")
-mgnet.xyz#%#//scriptlet("set-constant", "timeForCounter", "1000")
 mgnetu.com##.banner-container .box-success > h4
 mgprojekt.com.pl##.code-block .ai-attributes
 mgronline.com##article.pordee-shops
@@ -67793,10 +67791,10 @@ ping-test.net##.rek970x90
 ping-test.net##div[style^="width: 336px; height: 280px;"]
 ping.chinaz.com##.sth > .col-red
 ping.eu##td > center[style="margin-bottom: 2px;"]
-ping0.cc###adxright
+ping0.cc###adaright
 ping0.cc###websites-wrap:has([rel$="sponsored"])
 ping0.cc##.aditems
-ping0.cc##.xxeles
+ping0.cc##.xyeles
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -78530,6 +78528,7 @@ toy-people.com##.rightAd_3002502
 toy-people.com##.right_bottom_bb
 toyota-club.eu#%#//scriptlet('remove-attr', 'class', 'body > div#obalovydiv')
 toyota-club.eu#@#.reklama
+toyotanation.com#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', 'onerror')
 tp24.it###Adv-div
 tpb.party##a[href="https://mysurferprotector.com/"]
 tpbaysproxy.com,pirateproxy.*##.nord-message-wrap
@@ -84390,6 +84389,7 @@ yule.iqiyi.com##div[style="width:180px;padding:25px 0 20px 20px;float:right;marg
 yumeost.net,demooh.com###ruby-site + div[id][class*=" "]
 yummly.com##.external-promo-root
 yun.cn##div[class*="ad-block"]
+yunakhaber.com###safirPage + div[id][class*=" "]
 yunduanxin.xyz###adb-mask
 yunjiema.net##.container > .row.table-hover:has(> .col-md-8 > .adsbygoogle)
 yunjiema.net#$#.container > .row.table-hover.bg-messages:has(+ .row.table-hover > .col-md-8 > .adsbygoogle) { background-color: transparent !important; }
@@ -93769,7 +93769,6 @@ zzzyk.com###Tinfo
 ||kudoslabs.gg/track/
 ||kuikr.com/public/mon/qap/
 ||kuikr.com/public/mon/qapqdfp/
-||kuk8.com^$third-party
 ||kuke99.com/static/home/js/index/index.js
 ||kuku99.com^$third-party
 ||kukudm.com/mg/show2.js
@@ -97715,6 +97714,7 @@ zzzyk.com###Tinfo
 ||salesforce.com/sfga.js
 ||salesmartly.com/client/log/
 ||salesmartly.com/client/station/log?
+||salesviewer.com^$third-party
 ||salidzini.lv^*/logo_button.gif?$third-party
 ||saliu.com/images/software-lottery-gambling.gif
 ||salvalaselva.org/plsbl/js
@@ -99213,6 +99213,7 @@ zzzyk.com###Tinfo
 ||t.mail.sony-europe.com/r/?
 ||t.paypal.com/ts?
 ||t.paypal.com^$image
+||t.pzc.nl^$image
 ||t1.daumcdn.net/*/static/kp.js
 ||t1.daumcdn.net/adfit/static/ad.min.js
 ||t13.cl/hit/
