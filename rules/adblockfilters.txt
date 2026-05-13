@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260513004412
-! Last modified: 2026/05/13 00:44:12
-! Blocked Filters: 102161
+! Version: 20260513083505
+! Last modified: 2026/05/13 08:35:05
+! Blocked Filters: 102122
 !
 ###AC_ad
 ###AD_160
@@ -14535,7 +14535,6 @@
 ##[href='/jump.html']
 ##[href='/my/dp.html']
 ##[href='/my/gd.html']
-##[href='https://click.aliyun.com/m/1000332699/']
 ##[href='https://dpurl.cn/HifSTUtz']
 ##[href='https://ttaxz087b.xyz']
 ##[href='https://www.aiwajbh.com/mh.php']
@@ -16345,6 +16344,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 -720x90.
 -728-90-
 -728-90.
+-728-x-90-
 -728.90.
 -728x90-
 -728x90.
@@ -55505,6 +55505,7 @@ ifa.com.au###mmk-popup-screen
 ifa.com.au##div[class^="b-gutterads__wrapper"]
 ifanr.com##.popup-app-download
 ifate.com##.articleleftfloater
+ifate.com,ycp.synk-casualgames.com#@#.adsbygoogle-noablate
 ifbbpro.com#$#body.td-background-link { background-image: none!important; cursor: auto !important; }
 ifbbpro.com#%#//scriptlet('set-constant', 'td_ad_background_click_link', 'undefined')
 ifeng.com###CA_left
@@ -59154,7 +59155,6 @@ ktsf.com###sow-slider-7
 kuai8.com###left_Ad
 kuai8.com###right_Ad
 kuai8.com##.Ad1
-kuaibao.qq.com##.slider-box
 kuaidi100.com##div[id][style="width: 300px;float: right;"]
 kuaishouba.com##.index_adbox
 kuakao.com##.addTQBar
@@ -62417,9 +62417,6 @@ mingguanwanita.my##.adplaceholder-leaderboard
 mingguanwanita.my##.adplaceholder-mrec
 mingpao.com###photo_transition
 minhangcidian.com##div[id^="googleAd"]
-mini.eastday.com###dsp_btxf
-mini.eastday.com##.ordernumad
-mini.eastday.com##li[class^="recommend_news recommend_ad_hot_"]
 miniclip.com###promo-mast
 minidl.org##[href^="https://uploadgig.com/premium/index/"]
 miniie.com,tisai.com###gg_content
@@ -69401,6 +69398,9 @@ primewire.mov#%#//scriptlet('prevent-window-open')
 primewire.tf##tr:has(> td > div.spn-btns)
 primochef.it###detect ~ div[style^="display: flex; align-items: center; justify-content: center; position: fixed;"]
 primochef.it#%#//scriptlet("set-constant", "adBlockRunning", "false")
+princegeorgepost.com,airdrieecho.com,thechronicle-online.com,melfortjournal.com,clintonnewsrecord.com,wiartonecho.com,wetaskiwintimes.com,whitecourtstar.com,peacecountrysun.com,countymarket.ca,fairviewpost.com,coldlakesun.com,seaforthhuronexpositor.com,shorelinebeacon.com,simcoereformer.ca,elliotlakestandard.ca,recorder.ca,elliotlakestandard.ca,saultstar.com,stratfordbeaconherald.com,countyweeklynews.ca,wallaceburgcourierpress.com,stratfordbeaconherald.com,saltwire.com,chathamdailynews.ca,todaysfarmer.ca,kincardinenews.com,theobserver.ca,communitypress.ca,pembrokeobserver.com,saultthisweek.com,nugget.ca,northernnews.ca,leaderpost.com,thestarphoenix.com,draytonvalleywesternreview.com,highrivertimes.com,stonyplainreporter.com,vulcanadvocate.com,ottawasun.com,ottawacitizen.com,calgarysun.com,ontariofarmer.com,tj.news,thestarphoenix.com,leaderpost.com,edmontonsun.com,driving.ca,calgaryherald.com,theprovince.com,canoe.com,financialpost.com##section[aria-describedby^="advertisment"]
+princegeorgepost.com,airdrieecho.com,thechronicle-online.com,melfortjournal.com,clintonnewsrecord.com,wiartonecho.com,wetaskiwintimes.com,whitecourtstar.com,peacecountrysun.com,countymarket.ca,fairviewpost.com,pinchercreekecho.com,coldlakesun.com,canoe.com,nationalpost.com,financialpost.com,seaforthhuronexpositor.com,shorelinebeacon.com,simcoereformer.ca,elliotlakestandard.ca,recorder.ca,elliotlakestandard.ca,saultstar.com,stratfordbeaconherald.com,countyweeklynews.ca,wallaceburgcourierpress.com,stratfordbeaconherald.com,chathamdailynews.ca,todaysfarmer.ca,kincardinenews.com,theobserver.ca,communitypress.ca,pembrokeobserver.com,saultthisweek.com,nugget.ca,northernnews.ca,lucknowsentinel.com,mitchelladvocate.com,lakeshoreadvance.com,gananoquereporter.com,goderichsignalstar.com,thewhig.com##.epaper-widget
+princegeorgepost.com,thechronicle-online.com,melfortjournal.com,clintonnewsrecord.com,wiartonecho.com,wetaskiwintimes.com,whitecourtstar.com,peacecountrysun.com,countymarket.ca,fairviewpost.com,coldlakesun.com,seaforthhuronexpositor.com,shorelinebeacon.com,simcoereformer.ca,elliotlakestandard.ca,recorder.ca,elliotlakestandard.ca,saultstar.com,stratfordbeaconherald.com,countyweeklynews.ca,wallaceburgcourierpress.com,stratfordbeaconherald.com,saltwire.com,chathamdailynews.ca,kincardinenews.com,theobserver.ca,communitypress.ca,pembrokeobserver.com,saultthisweek.com,ontariofarmer.com,norfolkandtillsonburgnews.com,napaneeguide.com,parisstaronline.com,nugget.ca,northernnews.ca,lucknowsentinel.com,mitchelladvocate.com,lakeshoreadvance.com,gananoquereporter.com,goderichsignalstar.com,thewhig.com,pinchercreekecho.com,prrecordgazette.com,leducrep.com,thebeaumontnews.ca,fortmcmurraytoday.com,edmontonsun.com,edmontonexaminer.com,devondispatch.ca,dailyheraldtribune.com,calgarysun.com,calgaryherald.com,airdrieecho.com,thecragandcanyon.ca,thebeaumontnews.ca,cochranetimes.com,leaderpost.com,thestarphoenix.com,ottawasun.com,draytonvalleywesternreview.com,highrivertimes.com,stonyplainreporter.com,vulcanadvocate.com,theprovince.com,woodstocksentinelreview.com,edmontonjournal.com##.widget--local-business
 printablecreative.com##.gda-home-box
 printedelectronicsnow.com###exposeMask
 printedelectronicsnow.com##.globalOverlay
@@ -76646,9 +76646,6 @@ thechainsaw.com##.gam-ad-container
 thechainsaw.com##.wp-block-create-block-pedestrian-gam-ad-block
 thechinaproject.com##.a4d
 thechinaproject.com##.sticky-spacer
-thechronicle-online.com,melfortjournal.com,clintonnewsrecord.com,wiartonecho.com,wetaskiwintimes.com,whitecourtstar.com,peacecountrysun.com,countymarket.ca,fairviewpost.com,coldlakesun.com,seaforthhuronexpositor.com,shorelinebeacon.com,simcoereformer.ca,elliotlakestandard.ca,recorder.ca,elliotlakestandard.ca,saultstar.com,stratfordbeaconherald.com,countyweeklynews.ca,wallaceburgcourierpress.com,stratfordbeaconherald.com,saltwire.com,chathamdailynews.ca,kincardinenews.com,theobserver.ca,communitypress.ca,pembrokeobserver.com,saultthisweek.com,ontariofarmer.com,norfolkandtillsonburgnews.com,napaneeguide.com,parisstaronline.com,nugget.ca,northernnews.ca,lucknowsentinel.com,mitchelladvocate.com,lakeshoreadvance.com,gananoquereporter.com,goderichsignalstar.com,thewhig.com,pinchercreekecho.com,prrecordgazette.com,leducrep.com,thebeaumontnews.ca,fortmcmurraytoday.com,edmontonsun.com,edmontonexaminer.com,devondispatch.ca,dailyheraldtribune.com,calgarysun.com,calgaryherald.com,airdrieecho.com,thecragandcanyon.ca,thebeaumontnews.ca,cochranetimes.com,leaderpost.com,thestarphoenix.com,ottawasun.com,draytonvalleywesternreview.com,highrivertimes.com,stonyplainreporter.com,vulcanadvocate.com,theprovince.com,woodstocksentinelreview.com,edmontonjournal.com##.widget--local-business
-thechronicle-online.com,melfortjournal.com,clintonnewsrecord.com,wiartonecho.com,wetaskiwintimes.com,whitecourtstar.com,peacecountrysun.com,countymarket.ca,fairviewpost.com,coldlakesun.com,seaforthhuronexpositor.com,shorelinebeacon.com,simcoereformer.ca,elliotlakestandard.ca,recorder.ca,elliotlakestandard.ca,saultstar.com,stratfordbeaconherald.com,countyweeklynews.ca,wallaceburgcourierpress.com,stratfordbeaconherald.com,saltwire.com,chathamdailynews.ca,todaysfarmer.ca,kincardinenews.com,theobserver.ca,communitypress.ca,pembrokeobserver.com,saultthisweek.com,nugget.ca,northernnews.ca,leaderpost.com,thestarphoenix.com,draytonvalleywesternreview.com,highrivertimes.com,stonyplainreporter.com,vulcanadvocate.com,ottawasun.com,ottawacitizen.com,calgarysun.com,ontariofarmer.com,tj.news,thestarphoenix.com,leaderpost.com,edmontonsun.com,driving.ca,calgaryherald.com,theprovince.com,canoe.com,financialpost.com##section[aria-describedby^="advertisment"]
-thechronicle-online.com,melfortjournal.com,clintonnewsrecord.com,wiartonecho.com,wetaskiwintimes.com,whitecourtstar.com,peacecountrysun.com,countymarket.ca,fairviewpost.com,pinchercreekecho.com,coldlakesun.com,canoe.com,nationalpost.com,financialpost.com,seaforthhuronexpositor.com,shorelinebeacon.com,simcoereformer.ca,elliotlakestandard.ca,recorder.ca,elliotlakestandard.ca,saultstar.com,stratfordbeaconherald.com,countyweeklynews.ca,wallaceburgcourierpress.com,stratfordbeaconherald.com,chathamdailynews.ca,todaysfarmer.ca,kincardinenews.com,theobserver.ca,communitypress.ca,pembrokeobserver.com,saultthisweek.com,nugget.ca,northernnews.ca,lucknowsentinel.com,mitchelladvocate.com,lakeshoreadvance.com,gananoquereporter.com,goderichsignalstar.com,thewhig.com##.epaper-widget
 thecinemaholic.com##.cinemaholic-ad-below-header
 theclassicporn.com###jerrys
 theclassicporn.com##.player-container > div[id^="stop"]
@@ -77357,6 +77354,7 @@ thetechoutlook.com##.wnyfv-after-related > div[data-adid]
 thetechoutlook.com#?#.pmhubtge:has(> div.pmhubtge-container > div[id*="ScriptRoot"])
 thetechrim.com##.sb-widget-ad
 thetechrim.com##div[class^="blocker-"]
+thetelegraph.com##.package > .grid > div:has(> div[data-block-type="ad"])
 thetelugufilmnagar.com##.td-g-rec-id-custom_ad_1
 thetelugufilmnagar.com##body ins.adsbygoogle:not(#style_important)
 thethaiger.com###ad-top-rotator
@@ -82332,6 +82330,8 @@ woolworths.com.au##.product-grid-v2--tile:has(.sponsored-text)
 woolworths.com.au##.search-banner-top-mbox
 woolworths.com.au##div[class^="aem-video-ad-unit_component_video-container_"]
 woolworths.com.au##shared-mbox:has(> div[data-mbox^="acs.w-s.web."])
+woolworths.com.au#?#div[class^="recipe-card_component_recipe-card-container-"]:contains(Sponsored)
+woolworths.com.au#?#div[class^="recipe-card_component_recipe-card-container-"]:has-text(Sponsored)
 wooordhunt.ru#?##content > div[style*="min-height"]:not([id]):has(> .adsbygoogle)
 woopread.com##.dcads
 woorkup.com##.kinsta
@@ -83728,7 +83728,6 @@ yazhouse8.com##.banners
 yazhouse8.com##.mini-over-top
 yb983.com##div[id^="pop"]
 ychecker.com##div[style="width:300px; height:250px;"]
-ycp.synk-casualgames.com#@#.adsbygoogle-noablate
 yd.baidu.com##.ui-distribution-bar
 ydwgame.net###diy3
 ydwgame.net###float_mask
@@ -84139,7 +84138,6 @@ youwatchporn.com##a[href^="http://gohillgo.com/out"]
 youwatchporn.com#%#//scriptlet("prevent-window-open", "snowdayonline.xyz")
 youx.xxx##.gallery-link
 youx.xxx##.thumb_banner
-youxi.baidu.com###coupletBanner
 youzik.com##a[href^="https://adsrv.me/"]
 youzik.com#%#//scriptlet("prevent-window-open", ".info?tid=")
 youziks.com#%#//scriptlet('prevent-setTimeout', 'ecjkox.com')
@@ -85931,9 +85929,6 @@ zzzyk.com###Tinfo
 ||adult-sex-games.com/images/adult-games/
 ||adult-sex-games.com/images/promo/
 ||adult-trade.nl/lo/track.php
-||adult.xyz/fp.rev3.php
-||adult.xyz^$popup
-||adult.xyz^$script,third-party
 ||adultasianporn.com/puty3s/
 ||adultconfessions.com/js/abdetectorpro
 ||adultdeepfakes.com/static/js/p.js
@@ -87417,7 +87412,6 @@ zzzyk.com###Tinfo
 ||beijing-air.com/images/a/j
 ||beijingbang.top/scholar/xljsci
 ||bejson.com/static/la.
-||belhak.ru/porno/foto.gif
 ||belk.com/0iiey9LM/init.js
 ||bellesa.co/api/rest/v*/campaigns?
 ||bellesdemeures.com/Content/dist/js/libs/thor.js
@@ -87468,7 +87462,6 @@ zzzyk.com###Tinfo
 ||betonline.net.pl/media/images/$domain=elivescore.pl
 ||betonline.net.pl/media/images/$domain=meczyki.org
 ||betrugsalarm.com/assets/*/pubPolicy/customEvent.js
-||betshucklean.com^$popup
 ||betterbe.co/wp-content/themes/magnify/resources/js/bids
 ||betteredu.net/js/pop_tuiguang_
 ||bettermeter.com^$third-party
@@ -87927,7 +87920,6 @@ zzzyk.com###Tinfo
 ||bukalapak.com/track-external-visit
 ||bukalapak.com/track_external.json
 ||bullchat.com/sponsor/
-||bullfeeding.com^$popup
 ||bullz-eye.com/blog_ads/
 ||bullz-eye.com/images/ads/
 ||bumimi.com/money/
@@ -88222,7 +88214,6 @@ zzzyk.com###Tinfo
 ||cdn.700tb.com$script,domain=driveddl.xyz
 ||cdn.888img.com/*.gif$domain=888scoreonline.net
 ||cdn.adoptum.net/ado.js$script,redirect=noopjs,domain=sms24.me|sms24.info
-||cdn.adult.xyz/js/link-converter.js
 ||cdn.allermedia.se/se-aller-ads/
 ||cdn.almaftuchin.com/js/no-adblock.js
 ||cdn.ampproject.org^$popup,badfilter
@@ -88717,7 +88708,6 @@ zzzyk.com###Tinfo
 ||clicktime.symantec.com^$script,third-party
 ||clickx.io^$third-party
 ||clictoload.com^$domain=gizmodo.com
-||clictrck.com^$popup
 ||client-errors.rebble.io/log-client-error
 ||client.rum.*.amazonaws.com^
 ||clients.ragezone.com/serve.php/display/
@@ -88892,7 +88882,6 @@ zzzyk.com###Tinfo
 ||coinminerz.com^$third-party
 ||cointelegraph.com/pixel?
 ||coinvote.cc/user_data/premium_banners/
-||coinwebmining.com^$third-party
 ||coivl.net/trangchu/js/adblock.js
 ||colamanga.com/sw.js
 ||collect-elb-*.amazonaws.com^
@@ -89993,7 +89982,6 @@ zzzyk.com###Tinfo
 ||easydmp.net/collect_
 ||easydmp.net/etag.
 ||easydmp.net/get_delivery_data.
-||easyhash.io^$third-party
 ||easymp3mix.com/js/re-ads-zone.js
 ||easypic.com/js/easypicads.js
 ||easyporn.xxx/tmp/
@@ -90121,7 +90109,6 @@ zzzyk.com###Tinfo
 ||eliwitensirg.net^$popup
 ||elliottwave.com/fw/regular_leaderboard.js
 ||elpais.com/t.gif
-||eluxer.net^$third-party
 ||email.nautiljon.com/oo/$image
 ||emarketeer.com/tracker/
 ||embed.dramaz.se/jwplayer-*/vast.js
@@ -91907,7 +91894,6 @@ zzzyk.com###Tinfo
 ||hitsteps.com^$third-party
 ||hittracker.org/count.php
 ||hittracker.org/counter.php
-||hiy.vidzi.tv/socket.io^
 ||hizliresimyukle.com/images/2018/02/13/banner-1.jpg
 ||hjapi.com/v1/pageSoftText?
 ||hjfile.cn/analytics/site/TrackEvent.js
@@ -92157,7 +92143,6 @@ zzzyk.com###Tinfo
 ||humanoid.fr/register-impression?
 ||humix.com/video.js
 ||hundredpercentmargin.com^$popup
-||hungryrise.com^$popup
 ||hunt-leads.com^$third-party
 ||huo720.com/back/ad_
 ||huo720.com/files/vidhub
@@ -92754,7 +92739,6 @@ zzzyk.com###Tinfo
 ||instant-gaming.com/promo/$popup
 ||instant.one/a/tk
 ||instant.page^$third-party
-||instantpaydaynetwork.com^$popup
 ||instapage.com^$third-party,domain=~pagedemo.co
 ||instastory.net/header/detect.js
 ||instructables.com/counter
@@ -93659,9 +93643,7 @@ zzzyk.com###Tinfo
 ||lacentrale.fr/static/fragment-sentry/lc-sentry.js
 ||lacentrale.fr/static/fragment-tracking/tracking-
 ||lacoccinelle.net/tools.js
-||lactasetooth.shop^$popup
 ||ladyboygoo.com/lbg/banners/
-||laferia.cr^$third-party
 ||lagacetanewspaper.com/wp-content/uploads/banners/
 ||lagou.com/js/cooperation/
 ||lahoo.ca/api.php?mod=ad&
@@ -93916,7 +93898,6 @@ zzzyk.com###Tinfo
 ||linkifier.com^$third-party
 ||linkinbio.fun/iframes/
 ||linkinbio.fun/iframes/ssmmgirlsbanner.html
-||linkmepu.com^$popup
 ||linkneverdie.com/Ads/Micro/?size=$redirect=nooptext,important,domain=linkneverdie.com
 ||linkneverdie.net/jquery$replace=/if \(!currentUrl\.includes\("huong-dan"\)\)/if \(!currentUrl\)/
 ||linkrex.net/links/popad$popup
@@ -95254,7 +95235,6 @@ zzzyk.com###Tinfo
 ||napisy24.pl/run/js/blad*.js$script
 ||narkive.com/ajax/TelemV2?
 ||nasdaqfutures.org/wp-content/uploads/edcbdb/eeaafb.js
-||nasosettoourm.com^$popup
 ||nasssmedia.com^$popup
 ||nastyrat.com/*_*.js|
 ||nasza-klasa.pl^*/pp_gemius
@@ -95304,7 +95284,6 @@ zzzyk.com###Tinfo
 ||ncdn22.xyz/cdn-cgi/trace
 ||ncregister.com/_swp_analytics?
 ||nczsks.com/SCWB/WebResource.axd
-||ndcomemunica.com^$popup
 ||ndmais.com.br/tracking-parceiros-ndmais/
 ||neatorama.com/story/view/
 ||neeceeglogu.net^$popup
@@ -95799,7 +95778,6 @@ zzzyk.com###Tinfo
 ||onlineprostream.com^$media,redirect=noopmp3-0.1s,domain=blackboxsys.net
 ||onlineshopping.co.za/expop/
 ||onlyfree.de^*/counterservice/
-||onmantineer.com^$popup
 ||onnetwork.tv/cnt/
 ||onnetwork.tv/widget/
 ||onnetwork.tv^$domain=ppe.pl
@@ -95840,7 +95818,6 @@ zzzyk.com###Tinfo
 ||opendesktop.org/l/fp
 ||opengalaxyapps.monster^$popup
 ||openguid.org^$third-party
-||openlog.in^$third-party
 ||openstack.org/api/public/v1/sponsored-projects?
 ||opentrackers.org/i/*_banner
 ||opentrackers.org/i/dediseedbox_sb.png
@@ -95863,7 +95840,6 @@ zzzyk.com###Tinfo
 ||optimizer.poxo.com/ca2/analytics.js
 ||optinproject.com/rt/visit/
 ||optorb.com^$third-party
-||opus-whisky.com^$popup
 ||ora.tv/j/ora_evttracking.js
 ||oracle.com/visitorinfo/
 ||oracleimg.com/us/assets/metrics/ora_docs.js
@@ -95940,7 +95916,6 @@ zzzyk.com###Tinfo
 ||oxy.st/images/bannr.png
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
-||ozcarcupboard.com^$popup
 ||ozon.ru/tracker/
 ||ozonerexhaled.click^$popup
 ||p*-ad-sign.byteimg.com^
@@ -96077,7 +96052,6 @@ zzzyk.com###Tinfo
 ||paypalobjects.com^*/pixel.gif
 ||payskip.org/banner
 ||payskip.org/sw.js
-||payvclick.com^$popup
 ||payza.com/images/banners/
 ||pb.ytmp3tube.com/js/script.js$domain=yt1s.com.co
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
@@ -97732,7 +97706,6 @@ zzzyk.com###Tinfo
 ||sax*.sina.
 ||sax.sina.
 ||saxs.sina.
-||sayutracking.co.uk^$third-party
 ||sbazar.cz/*/static/js/ssp.js
 ||sbbanalytics.com^$third-party
 ||sbfull.com/assets/jquery/jquery-3.2.min.js?
@@ -98103,7 +98076,6 @@ zzzyk.com###Tinfo
 ||shop.gadgetsnow.com/gsearch/gadgetsnow.php^$domain=m.gadgetsnow.com|timesofindia.indiatimes.com
 ||shop.rewe.de/api/xrd/web-vitals
 ||shopch.jp/com/js/analytics.js
-||shopeasy.by^$popup
 ||shopee.*/__t__$xmlhttprequest
 ||shopee.tw/__t__
 ||shopee.tw/v2/shpsec/web/report
@@ -98801,7 +98773,6 @@ zzzyk.com###Tinfo
 ||static.vebotv.app/images/blv/$third-party
 ||static.videezy.com/assets/shutterstock-api-*.js
 ||static.videezy.com/assets/underpop-*.js
-||static.vidzi.tv/down.png
 ||static.wgospodarce.pl/images/top_banners
 ||static.winporn.com/upload/banners^
 ||static.wixstatic.com/media/2b1814_8e9e8ee46c054f11a3cac63dfa7ff4a8~mv2.png/v1/fill/w_300,h_22,al_c/2b1814_8e9e8ee46c054f11a3cac63dfa7ff4a8~mv2.png
@@ -99036,7 +99007,6 @@ zzzyk.com###Tinfo
 ||sudupan.com^*.gif
 ||suedtirol.live/slc.js
 ||sufile.com/jsa/
-||sugodeku.com^$third-party
 ||suibi8.com/aa1.gif
 ||suibiankan.co/Runtime/Js/
 ||suibianlu.com/zb_users/ad/
@@ -99050,7 +99020,6 @@ zzzyk.com###Tinfo
 ||sumologic.com^$third-party,domain=~sumologic.net
 ||sumotorrent.sx/img/ip_vanish_
 ||sump4.cc/js/wcount.js
-||sums.suning.com^$third-party
 ||sumsub.com/api/tunnel/
 ||sumsub.com/resources/fevents
 ||sumsub.com/stry/
@@ -99075,7 +99044,6 @@ zzzyk.com###Tinfo
 ||superauto.pl/iframe/configurator$subdocument,domain=motohigh.pl
 ||superfish.com^$third-party
 ||superjob.ru/ws/
-||superpcexpert.ru
 ||superspeedapp.com^$third-party
 ||supertaste.tvbs.com.tw/css/adunit.min.css
 ||supervideo.cc/tag01.js
@@ -99824,11 +99792,8 @@ zzzyk.com###Tinfo
 ||tracking.geo.*.amazonaws.com^
 ||tracking.mammemagazine.it^$script
 ||tracking.motorimagazine.it^$script
-||tracking.notizie.it^$script
-||tracking.offerteshopping.it^$script
 ||tracking.olx.
 ||tracking.style24.it^$script
-||tracking.tuobenessere.it^$script
 ||tracking.viaggiamo.it^$script
 ||trackingca.com^$third-party
 ||trackingpro.pro^$third-party
@@ -100358,7 +100323,6 @@ zzzyk.com###Tinfo
 ||v*.denakop.com^
 ||v*.sitecounter.site^
 ||v.blog.sohu.com/dostat.do?
-||v.center^$third-party
 ||v.icbc.com.cn/userfiles/ADResources/$domain=icbc.com.cn
 ||v.laogu.wang/template/*/images/g_js^
 ||v.newsportal*.ru^
@@ -100648,7 +100612,6 @@ zzzyk.com###Tinfo
 ||vpn-offers.org^$popup
 ||vpnfortorrents.*?$popup
 ||vpnoffers.cc^$popup
-||vpnrice.com/a/p.js
 ||vpntesting.com/wp-content/plugins/popup-builder/public/js/Popup.js
 ||vpolshchi.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||vpolshchi.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
@@ -101710,7 +101673,6 @@ zzzyk.com###Tinfo
 ||yotpo.com/widget-assets/yotpo-pixel/
 ||yotta.scrolller.com^$media,redirect=noopmp4-1s
 ||yottaa.com/rapid.min.js
-||yottos.com
 ||you-porn.com/_xa/ads
 ||you.com/api/recordEvent
 ||youaima.com/rest/
@@ -101797,7 +101759,6 @@ zzzyk.com###Tinfo
 ||youtubeloop.net/img/banner/*-banner.gif
 ||youvisit.com^$third-party
 ||youx.xxx/*.php|
-||youxi.baidu.com/tips/bdtips_min.js
 ||youy14.com/js/tj.js
 ||youy14.com/js/zz/nr.js
 ||youy14.com/js/zz/xf.js
