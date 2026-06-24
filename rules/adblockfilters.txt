@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260624004848
-! Last modified: 2026/06/24 00:48:48
-! Blocked Filters: 102975
+! Version: 20260624083446
+! Last modified: 2026/06/24 08:34:46
+! Blocked Filters: 102982
 !
 ###AC_ad
 ###AD_160
@@ -51795,6 +51795,7 @@ gameofbay.org,pirateproxy.yt$$script[src="//go.oclasrv.com/apu.php?"][onerror="(
 gamepadla.com###sliderBlock:has(> .relative > .sliderBlock > .ads)
 gamepadla.com##.pMain:has(div[class^="asd_"])
 gamepadla.com##.pMain:has(div[title="Partner placement"])
+gamepadla.com#?#.pMain:contains(Partner)
 gamepadla.com#?#.pMain:has-text(Partner)
 gamepadla.com#?#.sliderBlock:contains(ADS)
 gamepadla.com#?#.sliderBlock:has-text(ADS)
@@ -58813,6 +58814,7 @@ justthenews.com##.view--breaking-news-sponsored
 justthenews.com##img[width="798"][height="450"]
 justthenews.com,polygon.com##.video
 justwatch.com##.buybox-promotion-row
+justwatch.com##.buybox-selector > div[class="offer-container"]
 justwatch.com##.buybox_international_offers_row__header__icons:has([rel="nofollow sponsored noopener"])
 justwatch.com##.free-trial__container
 justwatch.com##.jw-ad-block
@@ -58820,7 +58822,10 @@ justwatch.com##.offer-container:has(.offer__footnote)
 justwatch.com##.offer-container:has(.promotion-row_container)
 justwatch.com##.offers-grid
 justwatch.com##.offers-list
+justwatch.com##.offers.buybox-selector
 justwatch.com##.promoted-buybox
+justwatch.com##.sponsored-recommendation
+justwatch.com##div[class*="sr-campaign"]
 justwatch.com##publication-block
 justwatch.com#$#.filter__wrapper--fixed { top:50px!important; }
 justwatch.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display:block!important; }
@@ -59477,6 +59482,8 @@ kogan.com#?#.rs-infinite-scroll > div:contains(Sponsored)
 kogan.com#?#.rs-infinite-scroll > div:has-text(Sponsored)
 kogan.com#?#.slider-slide:contains(Sponsored)
 kogan.com#?#.slider-slide:has-text(Sponsored)
+koha.net##.reklama_holder
+koha.net##body > div.container:has(> div.d-flex > div.reklame_live)
 kohls.com###PDP_monetization_HL
 kohls.com###PMP_monetization_HL
 kohls.com###kmn-featured-carousel
