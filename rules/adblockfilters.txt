@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260628170327
-! Last modified: 2026/06/28 17:03:27
-! Blocked Filters: 103018
+! Version: 20260629002702
+! Last modified: 2026/06/29 00:27:02
+! Blocked Filters: 103016
 !
 ###AC_ad
 ###AD_160
@@ -16871,6 +16871,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 .icu/pssbk?$third-party
 .imgur.com/lumbar.gif
 .in/js/ads/
+.in/js/footer_ad.js
 .info.kansaimiraibank.co.jp/c/*.gif
 .info/ad.js
 .info/ad/
@@ -18023,6 +18024,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /ad--unit.htm|
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
+/ad-blocking-detector/assets/js/adblock-detector.min.js
 /ad-choices-$image
 /ad-choices.png$image
 /ad-provider.
@@ -18085,13 +18087,11 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /adb1.gif?
 /adbanners/*$image
 /adblock-detect.$script
-/adblock-detector.min.js$script
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock/frontend_loader.js
 /adblockLogger/*
 /adblock_detector2.$script
 /adblock_logger.$script
-/adblockdetect.js$script
 /adblocker.js$domain=hindimearticles.net|solution-hub.com
 /adcg/*
 /adchoice.png$image
@@ -18167,7 +18167,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /adrecover.js$script
 /adright.$~xmlhttprequest,domain=~aaahaltontaxi.ca|~adright.com
 /ads-250.$image
-/ads-async.$script
 /ads-blocking-detector.$script
 /ads-common.$image,script
 /ads-front.min.js$script
@@ -18237,7 +18236,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /adsct?
 /adsdelivery/*$subdocument
 /adsen.php
-/adserv.$script
 /adserve/*$script
 /adserver.$popup
 /adserver.$~stylesheet,~xmlhttprequest,domain=~konograma.com
@@ -18603,7 +18601,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /apstag.js$script
 /aptrk.js
 /apu.php?$script
-/arcads.js$script
 /ard.png?
 /aria-web-telemetry-
 /art/stats/*
@@ -19083,7 +19080,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /cms-gg.js
 /cms.gif?
 /cms/stats/*
-/cms_ads.js$script
 /cmslog.dll?
 /cn-track?
 /cnki/js/adDetail1124.js
@@ -19166,7 +19162,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /confiant.js
 /config/tj.js
 /configuration-stat.js
-/content-ads.js$script
 /content.php?id=148&type=g|$xmlhttprequest
 /content/ads/*$~xmlhttprequest
 /content/clyscontent.js
@@ -19231,7 +19226,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /cpc/*.ashx?u=$script,third-party
 /cpm/i.ashx?
 /cpmShopAds^
-/cpmbanners.js$script
 /cpro.$popup,third-party
 /cpro/ui/*
 /create-lead.js
@@ -20283,6 +20277,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /js/dart.js
 /js/detector.js$domain=bestsimsmods.com|dtbps3games.com|passionategeekz.com
 /js/dfp.js$script
+/js/doubleclick.min.js?v=
 /js/dyguosj/*
 /js/easyAD.js
 /js/easyAD2.js
@@ -22007,7 +22002,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /status/impression?
 /sticky_ads.js$script
 /stickyad.js$script
-/stickyads.js$script
 /storage/*.js#spot=$domain=beapirate.pw|proxtpb.art|unblocktheship.org
 /storage/*.js?_=$domain=tpb.one|unblocktheship.org
 /storage/js/videojs.sda.js$script
@@ -22517,6 +22511,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /vendor/analytics.js
 /vendor/analytics/*
 /vendor/cedexis/*
+/vendor/doubleclick.min.js
 /vendors~ads.
 /vestigo/v1/measure
 /vglnk.js
@@ -32618,6 +32613,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kisahdunia.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kissanime.com.ru|kissanime.co|kissanime.sx|kissanime.is
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kitguru.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kodibeginner.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kpopflac.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=laptrinhx.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=leechpremium.link
@@ -34730,6 +34726,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||starman.ee/session/$stealth=ip
 @@||starmoney.de^$stealth=dpi
 @@||stars24.cz^$generichide
+@@||startpage.com^$generichide
 @@||startrek.website/pictrs/image/$xmlhttprequest
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 @@||stat-rock.com/player.js$domain=4shared.com
@@ -37187,6 +37184,7 @@ aguitar.cn##.headerbanner2
 aguitar.cn##.news_b
 aguitar.cn##img[width="470"][height="60"]
 aguitar.cn,guitarchina.com##.headerbanner
+agupubs.onlinelibrary.wiley.com,ahajournals.org##.pb-las
 ah-me.com###ad_banner
 ah-me.com###allIMwindow
 ah-me.com###videoContainer_pop
@@ -37202,7 +37200,6 @@ ahaan.co.uk##.sticky-side-ad
 ahaan.co.uk#?#.MuiBox-root:has(> div[class*="-only"] > .adunitContainer)
 ahaan.co.uk,emailnator.com,myip.is,scrolller.com,whereto.stream##[href^="https://go.nordvpn.net/"]
 ahajournals.org##.header--advertisment__container
-ahajournals.org##.pb-las
 ahajournals.org,tandfonline.com##.pb-ad
 ahaonline.cz##.ads
 ahaonline.cz##.boxReklama
@@ -51928,7 +51925,6 @@ gamesfree.com###banner-top1
 gamesfree.com###banner300
 gamesfree.com##.feat-coll
 gamesfrog.com##.banner > span
-gameshub.com##.ads-slot
 gamesindustry.biz,newscientist.com,usgamer.net##.leaderboard-container
 gamesindustry.biz,vg247.com,eurogamer.*,rockpapershotgun.com###sticky_leaderboard
 gameskinny.com##.ad_universal_ondemand
@@ -56746,6 +56742,7 @@ index.hr##div.js-carousel-campaign
 index.hr#%#(()=>{const e={apply:(e,t,o)=>{try{o[0].src?.includes?.("html-load.com")&&(o[0]=document.createElement("script"))}catch(e){}return Reflect.apply(e,t,o)}};window.Node.prototype.insertBefore=new Proxy(window.Node.prototype.insertBefore,e)})();
 index.hr#?#.categories > div.cube-holder:has(> div[data-css-class="google-box center-aligner"])
 index.hr,thingiverse.com,programme-tv.net#%#//scriptlet('set-constant', 'as_retry', '0')
+indexclix.com##[id^="promo"]
 indexsubtitle.cc#$##adblockModal[style] { display: none !important; }
 indexsubtitle.cc#$##adblockModal[style] ~ .modal-backdrop { display: none !important; }
 indexsubtitle.cc#$#body { overflow: auto !important; padding-right: 0 !important; }
@@ -59560,6 +59557,8 @@ kodi-guide.com##.privacy-box
 kodi-guide.com,techregister.co.uk,pornmium.com,etherealgames.com,androidphone.fr,esports.net,movilforum.com,apkmb.com,snat.co.uk,coursesxpert.com,thefappeningblog.com,nimtools.com,javhoho.com###text-2
 kodi-tutorials.uk###main > .code-block
 kodi-tutorials.uk##.entry-content > .code-block
+kodibeginner.com#%#//scriptlet('prevent-fetch', 'adsbygoogle')
+kodibeginner.com#%#//scriptlet('prevent-setTimeout', 'ai_adb_detected')
 kodinerds.net##.boxesSidebarRight
 koding.work#?#.sidebar > .widget_text:has(> .textwidget > .adsbygoogle)
 kodyrabatowe.naszemiasto.pl#?#body > div[class^="background"]:has(> .container:only-child > p:contains(Reklama))
@@ -69297,7 +69296,6 @@ popcrush.com#$##site-menu-wrapper > .logo { display: block!important; height: 50
 popcrush.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 popculture.com##.adInContent
 popculture.com##.wp-block-savage-platform-primis-video
-popculture.com##.wp-block-savage-platform-raptive-ad
 popculture.com##body .modernInContent > div[id^="oas_FC"]
 popculture.com##div[data-lx-claimed="zone-desktop-incontent"]
 popculture.com##div[data-lx-claimed="zone-desktop-index-leaderboard"]
@@ -86789,7 +86787,6 @@ zzzyk.com###Tinfo
 ||5movierulzfree.me/watchnow.php$popup
 ||5nj.com/js/cnzz22.js
 ||5nj.com/js/cnzz33.js
-||5s98.com/img/
 ||5vdd.com/360
 ||5vdd.com/ktt.png
 ||5vdd.com/mobile.jpg
@@ -92469,7 +92466,6 @@ zzzyk.com###Tinfo
 ||giphy.com^$replace=/"htlAds\\":\[\\".{1\,5}\\".*?\]/"htlAds\\":\[\]/,document
 ||giquhome.com/0/sendEventV2
 ||girlgaminghq.org/iframe/*?iframe&xapp=*&ag_custom_domain$third-party
-||girls-games.org/bnr/
 ||girlscanner.cc/templates/girlscanner/images/dfiles.jpg
 ||girlsofdesire.org/blr8
 ||girlsofdesire.org/flr8.js
@@ -93831,6 +93827,7 @@ zzzyk.com###Tinfo
 ||independent.co.uk/_build/main.*.js$replace=/(checkAdBlocker[\s\S]*?:..=).\.sent/\$1true/
 ||independent.co.uk/iframe/native-cookiesync-frames.html
 ||independent.co.uk/internal-api/indy100
+||indexclix.com/js/cpmbanners.js
 ||indiadesire.com/bbd/
 ||indianexpress.com/wp-content/plugins/express-ad-code-manager/
 ||indianexpress.com/wp-content/plugins/express-ad-code-manager/js/page-ad-codes.js
@@ -93926,7 +93923,6 @@ zzzyk.com###Tinfo
 ||instant-gaming.com/api/banner/partner/loader.js
 ||instant-gaming.com/images/marketing/banners/
 ||instant-gaming.com/promo/$popup
-||instant.one/a/tk
 ||instant.page^$third-party
 ||instapage.com^$third-party,domain=~pagedemo.co
 ||instapeep.com/static/ads.js
@@ -95732,6 +95728,7 @@ zzzyk.com###Tinfo
 ||memesng.com/ads
 ||memo.co^$third-party
 ||menepe.com^$popup
+||mengelke.de/Pub/img/ads/werbebanner/adserv.gif
 ||meninosonline.net/assets/filmesgratis-$image
 ||mensjournal.com/.bootscripts/analytics.min.js
 ||mentimeter.com/performance-metrics
@@ -97836,6 +97833,7 @@ zzzyk.com###Tinfo
 ||publika.az/axar.php^$third-party
 ||publika.az/informers/$third-party
 ||publish0x.com^$image,script,third-party
+||publisher-services.amazon.dev/v1/recordVendorsLoaded
 ||publisher.freerider.ro/storage/images/_Freerider-Afisport
 ||pubplus.com^$third-party
 ||pudelek.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script

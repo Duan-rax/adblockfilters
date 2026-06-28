@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260628170327
-! Last modified: 2026/06/28 17:03:27
-! Blocked Filters: 43762
+! Version: 20260629002702
+! Last modified: 2026/06/29 00:27:02
+! Blocked Filters: 43758
 !
 ###AC_ad
 ###AD_160
@@ -16711,6 +16711,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 .icu/pssbk?$third-party
 .imgur.com/lumbar.gif
 .in/js/ads/
+.in/js/footer_ad.js
 .info.kansaimiraibank.co.jp/c/*.gif
 .info/ad.js
 .info/ad/
@@ -17859,6 +17860,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /ad--unit.htm|
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
+/ad-blocking-detector/assets/js/adblock-detector.min.js
 /ad-choices-$image
 /ad-choices.png$image
 /ad-provider.
@@ -17921,13 +17923,11 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /adb1.gif?
 /adbanners/*$image
 /adblock-detect.$script
-/adblock-detector.min.js$script
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock/frontend_loader.js
 /adblockLogger/*
 /adblock_detector2.$script
 /adblock_logger.$script
-/adblockdetect.js$script
 /adblocker.js$domain=hindimearticles.net|solution-hub.com
 /adcg/*
 /adchoice.png$image
@@ -18003,7 +18003,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /adrecover.js$script
 /adright.$~xmlhttprequest,domain=~aaahaltontaxi.ca|~adright.com
 /ads-250.$image
-/ads-async.$script
 /ads-blocking-detector.$script
 /ads-common.$image,script
 /ads-front.min.js$script
@@ -18073,7 +18072,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /adsct?
 /adsdelivery/*$subdocument
 /adsen.php
-/adserv.$script
 /adserve/*$script
 /adserver.$popup
 /adserver.$~stylesheet,~xmlhttprequest,domain=~konograma.com
@@ -18439,7 +18437,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /apstag.js$script
 /aptrk.js
 /apu.php?$script
-/arcads.js$script
 /ard.png?
 /aria-web-telemetry-
 /art/stats/*
@@ -18919,7 +18916,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /cms-gg.js
 /cms.gif?
 /cms/stats/*
-/cms_ads.js$script
 /cmslog.dll?
 /cn-track?
 /cnki/js/adDetail1124.js
@@ -19002,7 +18998,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /confiant.js
 /config/tj.js
 /configuration-stat.js
-/content-ads.js$script
 /content.php?id=148&type=g|$xmlhttprequest
 /content/ads/*$~xmlhttprequest
 /content/clyscontent.js
@@ -19067,7 +19062,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /cpc/*.ashx?u=$script,third-party
 /cpm/i.ashx?
 /cpmShopAds^
-/cpmbanners.js$script
 /cpro.$popup,third-party
 /cpro/ui/*
 /create-lead.js
@@ -20119,6 +20113,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /js/dart.js
 /js/detector.js$domain=bestsimsmods.com|dtbps3games.com|passionategeekz.com
 /js/dfp.js$script
+/js/doubleclick.min.js?v=
 /js/dyguosj/*
 /js/easyAD.js
 /js/easyAD2.js
@@ -21843,7 +21838,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /status/impression?
 /sticky_ads.js$script
 /stickyad.js$script
-/stickyads.js$script
 /storage/*.js#spot=$domain=beapirate.pw|proxtpb.art|unblocktheship.org
 /storage/*.js?_=$domain=tpb.one|unblocktheship.org
 /storage/js/videojs.sda.js$script
@@ -22353,6 +22347,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /vendor/analytics.js
 /vendor/analytics/*
 /vendor/cedexis/*
+/vendor/doubleclick.min.js
 /vendors~ads.
 /vestigo/v1/measure
 /vglnk.js
@@ -26211,6 +26206,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kisahdunia.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kissanime.com.ru|kissanime.co|kissanime.sx|kissanime.is
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kitguru.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kodibeginner.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kpopflac.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=laptrinhx.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=leechpremium.link
@@ -27690,6 +27686,7 @@ aguitar.cn##.headerbanner2
 aguitar.cn##.news_b
 aguitar.cn##img[width="470"][height="60"]
 aguitar.cn,guitarchina.com##.headerbanner
+agupubs.onlinelibrary.wiley.com,ahajournals.org##.pb-las
 ah-me.com,gaygo.tv,tranny.one##.flirt-block
 ahaan.co.uk,emailnator.com,myip.is,scrolller.com,whereto.stream##[href^="https://go.nordvpn.net/"]
 ahajournals.org,tandfonline.com##.pb-ad
@@ -39774,7 +39771,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||5etv.com^$third-party
 ||5ilog.com/qq/js/jsgg.js
 ||5imx.com/image/image/
-||5s98.com/img/
 ||6.cn/coop/pub/getRand.php?
 ||600km.com/template/*/ad/
 ||62422.cn/ggimg/
